@@ -1,0 +1,93 @@
+.heading-primary-white {
+    @include textstyle($heading-primary-size, 800, normal, 1.07, $color-white);
+}
+
+.heading-primary {
+    @include textstyle($heading-primary-size, bold, -1.25px, 1.03,$color-secondary);
+    text-align: center;
+}
+
+.heading-primary-variant {
+    @include textstyle($heading-primary-size, bold, normal, 1.17, $color-primary);
+  
+    span {
+        border-radius: 7px;
+        background: #3f2e8c;
+        color: $color-white;
+        padding: 0px 1rem 1rem 1rem;
+        display: inline-block;
+        margin-top: 1rem;
+    }
+}
+
+.heading-secondary {
+    @include textstyle($heading-secondary-size, bold,  -1px, 1.29, $color-secondary); 
+}
+
+.heading-secondary-white {
+    @include textstyle($heading-secondary-size, bold, normal, normal, $color-white);
+    text-align: center;  
+}
+
+.heading-tertiary {
+    @include textstyle($heading-tertiary-size, bold, -1.54px, 1.22, $color-secondary);
+    text-align: center;
+}
+
+.heading-tertiary-variant {
+    @include textstyle($heading-tertiary-size, bold, -1.5px, 1.22, $color-primary);
+    text-align: center;
+}
+
+.heading-tertiary-white {
+    @include textstyle($heading-tertiary-size, bold, -0.8px, 1.33, $color-white);
+}
+
+.heading-four {
+    @include textstyle($heading-four-size, normal, -0.24px, 1.33, $color-primary);
+    text-align: center;
+
+    .bold {
+        font-weight: 800;
+    }
+} 
+
+.heading-four-variant {
+    @include textstyle($heading-four-size, bold, -0.5px, normal, $color-primary);
+}
+
+.heading-four-white {
+    @include textstyle($heading-four-size, 800, normal, normal, $color-white);
+}
+
+.paragraph {
+    @include textstyle($anchor-link-size, normal, -0.2px, 1.4, $color-primary);
+    margin-top: 2rem;
+    
+    span {
+        font-weight: bold;
+        color: #3f2e8c;
+    }
+}
+
+.paragraph-white {
+    @include textstyle(2.1rem, normal, normal, 1.52, $color-white);
+}
+
+.paragraph-white-variation {
+    @include textstyle($paragraph-size, normal, normal, 1.44, $color-white);
+}
+
+.paragraph-variation {
+    @include textstyle($heading-four-size, normal, -0.24px, 1.33, $color-primary);
+
+    span {
+        font-weight: 800;
+    }
+}
+
+.anchor-link {
+    @include textstyle($anchor-link-size, 600, -0.5px, 1.4, #400d85);
+    display: inline-block;
+    margin-top: 3.5rem;
+}

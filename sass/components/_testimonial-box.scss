@@ -1,0 +1,31 @@
+.testimonial-box {
+    border-radius: 8px;
+    border: solid 2px #dfe4ea;
+    padding: 3rem;
+    text-align: center;
+    font-size: 1.4rem;
+    margin: 2rem;
+    
+    hr {
+        width: 60%;
+        background-color: #dfe4ea;
+        margin: 40px auto;
+    }
+
+    &__image {
+        width: 62px;
+        height: 62px;
+        background-color: #696cff;
+        margin: auto;
+        border-radius: 50%;
+    }
+
+    &__name {
+        @include testimonial(600, 1.36, -0.55px, $color-secondary);
+        font-size: 2.2rem;
+    }
+
+    &__position {
+        @include testimonial(normal, 1.43, -0.4px, #3e4462);
+    }
+}

@@ -1,0 +1,57 @@
+.footer {
+
+    &__top {
+        background-color: #071a2d;
+        padding: 40px 0;
+
+        .container-fluid {
+            width: 94%;
+
+            img {
+                height: 45px;
+            }
+        }
+    }
+
+    &__bottom {
+        background-color: #05172a;
+        padding: 40px 0 30px 0;
+
+        img {
+            max-height: 40px;
+        }
+
+        h6 {
+            @include textstyle($default-font-size, 800, -0.4px, 1.38, $color-white);
+        }
+
+        p {
+            a {
+                -webkit-text-stroke: 1px #979797;
+                @include textstyle($default-font-size, normal, -0.2px, 1.63, rgba(255, 255, 255, 0.66));
+            }
+        }
+
+        hr {
+            background-color: rgba(255, 255, 255, 0.66);  
+            margin-top: 4rem;
+        }
+
+        .newsletter {
+            @include textstyle($paragraph-size, normal, -0.3px, 1.44, #3e4462);
+        }
+
+
+        input.form-control {
+            @include textstyle($paragraph-size, normal, -0.3px, 1.44, #3e4462);
+            border-radius: 8px;
+            background-color: #eff2f6;
+            height: auto;
+            padding-bottom: 6px;
+        }
+
+        .d-flex {
+            margin-top: -12px;
+        }
+    }
+}

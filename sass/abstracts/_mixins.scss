@@ -1,0 +1,31 @@
+@mixin textstyle($size, $weight, $value, $height, $color) {
+    font-stretch: normal;
+    font-style: normal;
+    font-size: $size;
+    font-weight: $weight;
+    letter-spacing: $value;
+    line-height: $height;
+    color: $color;
+}
+
+@mixin buttonStyle($radius, $bgcolor, $btnsize, $weight, $height, $value) {
+    font-stretch: normal;
+    font-style: normal;
+    text-align: center;
+    color: $color-white;
+    border-radius: $radius;
+    background-color: $bgcolor;
+    font-size: $btnsize;
+    font-weight: $weight;
+    line-height: $height;
+    letter-spacing: $value;
+}
+
+@mixin testimonial($weight, $height, $value, $color) {
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: $weight;
+    line-height: $height;
+    letter-spacing: $value;
+    color: $color;
+}

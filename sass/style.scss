@@ -1,0 +1,24 @@
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "base/animations";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+
+@import "components/button";
+@import "components/testimonial-box";
+@import "components/walletcard";
+@import "components/tabs";
+@import "components/hexagon";
+
+@import "layout/header";
+@import "layout/footer";
+@import "layout/slickdot";
+
+@import "pages/home";
+@import "pages/wallet";
+@import "pages/terms";
+@import "pages/loan";
+@import "pages/investment";

@@ -1,0 +1,107 @@
+.header {
+    background-image: radial-gradient(circle at 60% 36%, #9987bf, #3f2d8f 98%), linear-gradient(to bottom, #967fff, #967fff);
+    padding-bottom: 140px;
+
+    .container-fluid {
+        width: 94%;
+    }
+
+    .navbar {
+        background-color: #ffffff;
+        padding: 0;
+   
+        .logo{
+            max-height: 40px;
+
+            &:hover {
+                animation: moveInLeft 1s ease-out;
+            }
+        }
+
+        .navbar-toggler {
+            border: 1px solid #400d85;
+            padding: 6px 10px 5px 10px;
+            font-size: 16px;
+        }
+
+        ul.navbar-nav {
+            padding: 10px 10px 15px 10px;
+            margin-left: auto;
+
+            .nav-link {
+                @include textstyle($default-font-size, normal, normal, 1.5, $color-primary);
+                padding: 0 3.5rem;
+
+                &:hover {
+                    color: #400d85;
+                    font-weight: 600;
+                }
+
+                .Products {
+                    font-family: ArialUnicodeMS;
+                }
+            }
+
+            .nav-link.active {
+                color: #400d85;
+                font-weight: 600;
+            }
+
+            .form-group {
+                #basic {
+                    button {
+                        @include textstyle($default-font-size, normal, normal, 1.5, $color-primary);
+                        margin-left: 1rem;
+                        margin-top: 6px;
+                    }
+
+                    ul {
+                        padding: 1rem;
+
+                        li {
+                            @include textstyle($default-font-size, normal, normal, 1.5, $color-primary);
+                        }
+                    }
+                }
+            }
+            .dropdown-item {
+                @include textstyle($default-font-size, normal, normal, 1.5, $color-primary);
+            }
+        }
+    }
+    
+    &__box {
+        padding-top: 5rem;
+    }
+
+    &__access-box {
+        display: inline;
+        border-radius: 18.9px;
+        background-color: rgba($color-white, 0.96);
+        padding: 5px 7px;
+        padding-top: 4px;
+        @include textstyle(1.26rem, normal, normal, normal, #23303d);
+
+        .badge.badge-primary {
+            border-radius: 90px;
+            background-color: #14b28b;
+            font-size: 1.08rem;
+            font-weight: 600;
+            text-align: center;
+            color: $color-white;
+            position: relative;
+            top: -1px;
+        }
+    }
+
+    &__read-more {
+        font-weight: 600;
+        color: #3f2e8c;
+    }
+
+    .appstore-wrapper {
+        img {
+            height: 45px;
+        }
+    }
+}

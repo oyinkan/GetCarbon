@@ -1,0 +1,52 @@
+.section-wallet {
+    border-radius: 20px;
+    background-image: linear-gradient(358deg, rgba(252, 252, 255, 1) 96%, #ffffff 39%);
+    padding: 50px 40px 60px 40px;
+    margin-top: -110px;
+}
+
+.section-payment {
+    border-radius: 20px;
+    background-color: #fbfaff;
+    padding-top: 3rem;
+    text-align: center;
+
+    .paragraph-div {
+        width: 60%;
+        margin: 20px auto;
+    }
+}
+
+.section-report {
+    padding-top: 50px;
+}
+
+.section-clients {
+    padding: 50px 0 40px 0; 
+    background-color: #f7f9fa;
+    text-align: center;
+
+    img {
+        margin-top: 3.5rem;
+    }
+
+    hr {
+        background-color: #f7f9fa;
+        margin-top: 3rem;
+    }
+}
+
+.section-testimonial {
+    padding: 4rem 0;
+
+    h3.text-center {
+        width: 70%;
+        margin: 4rem auto;
+    }
+
+    .item.slick-slide.slick-active {
+        .testimonial-box {
+            background-color: #eff2f6;
+        }
+    }
+}

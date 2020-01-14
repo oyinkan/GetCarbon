@@ -1,0 +1,36 @@
+.btn.btn-info {
+    &:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 10px 20px rgba($color-black, 0.2);
+
+        &::after {
+            transform: scaleX(1.4) scaleY(1.6);
+            opacity: 0;
+        }
+    }
+
+    &:active {
+        transform: translateY(-1px);
+        box-shadow: 0 5px 10px rgba($color-black, 0.2);
+    }
+}
+.btn.btn-info.btn-create {
+    &:link,
+    &:visited {
+        @include buttonStyle(6px, #400d85, 1.6rem, bold, 1.5, normal);
+        position: relative;
+        border: solid 3px #3a0b79;
+        transition: all .2s;
+        padding: 10px 20px;
+        padding-top: 6px;
+        display: inline-block;
+        text-transform: capitalize;
+    }
+}
+
+.btn.btn-info.btn-subscribe {
+    @include buttonStyle(8px, #4737ff, 1.8rem, 600, normal, -0.4px);
+    padding: 3px 20px 7px 20px;
+    border-color: #4737ff;
+    margin-left: 10px;
+}

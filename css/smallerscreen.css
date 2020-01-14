@@ -1,0 +1,143 @@
+@media screen and (max-width: 768px) {
+    .heading-primary-white,
+    .heading-primary,
+    .heading-primary-variant,
+    .loan .section-payroll__heading-primary {
+        font-size: 5rem; 
+    } 
+
+    .heading-secondary,
+    .wallet-card h2  {
+        font-size: 4rem; 
+    }
+
+    .heading-tertiary,
+    .heading-tertiary-variant,
+    .heading-tertiary-white {
+        font-size: 3rem; 
+    }
+
+    .heading-four,
+    .heading-four-white {
+        font-size: 2rem;
+    }
+
+    .paragraph,
+    .paragraph-white,
+    .anchor-link {
+        font-size: 1.6rem;
+    }
+
+    .paragraph-variation {
+        font-size: 2rem; 
+    }
+
+    .nav-tabs .nav-link {
+        font-size: 1.3rem;
+        padding-left: 1.5rem; 
+    }
+    .tab-content h4 {
+        font-size: 2.5rem; 
+    }
+    .tab-content p {
+        font-size: 1.5rem; 
+    }
+    .header .navbar {
+        padding: 15px; 
+    }
+    .header .navbar ul.navbar-nav .nav-link {
+        padding: 0; 
+    }
+    .header .margin-top--50 {
+        margin-top: 0; 
+    }
+    .footer .footer__bottom .d-flex {
+        margin-top: 1.5rem; 
+    }
+    .section-payment .paragraph-div {
+        width: 80%; 
+    }
+    .investment .header__box .investment {
+        position: relative; 
+    }
+    .investment .section-steps .d-flex.full-size {
+        display: block !important; 
+    }
+    .investment .section-steps .half-size, .investment .section-steps__wrapper {
+        width: 100%;
+        padding: 2rem; 
+    }
+    .investment .section-steps .half-size h6, .investment .section-steps__wrapper h6 {
+        font-size: 2rem; 
+    }
+    .section-terms .container-fluid {
+        width: 95%; 
+    }
+    .investment .section-steps__image {
+        height: 100vh;
+    }
+    .header .navbar ul.navbar-nav .form-group #basic button {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .tab-content h2 {
+        margin-top: 3rem; 
+    } 
+    .footer .footer__bottom .form-inline {
+        display: block; 
+    }
+    .footer .footer__bottom .form-inline .form-control {
+        float: left;
+        width: auto; 
+    }
+    .section-testimonial h3.text-center {
+        width: 90%; 
+    }
+    .investment .section-investmentterms img {
+        position: relative; 
+    }
+    .footer__bottom h6 {
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (min-width: 770px) and (max-width: 990px) {
+    .header .navbar ul.navbar-nav .nav-link {
+        padding: 0 10px; 
+    } 
+}
+
+@media screen and (max-width: 415px) {
+    .footer .footer__bottom .form-inline {
+        display: block; 
+    }
+    .footer .footer__bottom .form-inline .btn.btn-info.btn-subscribe {
+        margin-left: 0; 
+    } 
+}
+
+@media screen and (max-width: 600px) {
+    .wallet .section-walletdetails__wrapper .d-flex {
+        display: block !important; 
+    }
+    .wallet .section-walletdetails__wrapper .d-flex .wallet-card {
+        width: 100%; 
+    } 
+}
+
+@media screen and (max-width: 1100px) {
+    .investment .section-steps h6 {
+        width: 100%; 
+    }
+    .investment .section-steps h6 {
+        width: 100%; 
+    } 
+}
+
+@media screen and (min-width: 1300px) {
+    .investment .section-investmentterms img {
+        position: relative; 
+    } 
+}
