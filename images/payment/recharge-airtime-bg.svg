@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="450px" viewBox="0 0 1440 450" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>Group 9 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1440" height="450"></rect>
+        <linearGradient x1="24.368687%" y1="58.6030022%" x2="108.607353%" y2="25.6424313%" id="linearGradient-3">
+            <stop stop-color="#F0FFFE" stop-opacity="0" offset="0.0131967905%"></stop>
+            <stop stop-color="#2CD5C4" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="82.9692721%" y1="84.2609035%" x2="50%" y2="3.061617e-15%" id="linearGradient-4">
+            <stop stop-color="#F0FFFE" stop-opacity="0" offset="0.0131967905%"></stop>
+            <stop stop-color="#2CD5C4" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="GetCarbon-Main-Website-V2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="GetCarbon-Payment-V2" transform="translate(0.000000, -1091.000000)">
+            <g id="Group-3-Copy-2" transform="translate(0.000000, 1091.000000)">
+                <g id="Group-9-Copy">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#EDFCFF" xlink:href="#path-1"></use>
+                    <circle id="Oval" fill="url(#linearGradient-3)" opacity="0.157087054" mask="url(#mask-2)" cx="1185.5" cy="38.5" r="175.5"></circle>
+                    <circle id="Oval-Copy-2" fill="url(#linearGradient-3)" opacity="0.0582682292" mask="url(#mask-2)" cx="500.5" cy="467.5" r="175.5"></circle>
+                    <circle id="Oval-Copy-3" fill="url(#linearGradient-4)" opacity="0.157087054" mask="url(#mask-2)" cx="84" cy="59.5" r="37.5"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,11 +1,19 @@
 @media screen and (max-width: 768px) {
+    .header .navbar ul.navbar-nav {
+        padding: 0;
+    }
+    .navbar-collapse {
+        margin-top: 1.5rem;
+    }
+    .header .btn.btn-info {
+        margin-top: 2rem;
+    }
     .heading-primary-white,
     .heading-primary,
     .heading-primary-variant,
     .loan .section-payroll__heading-primary {
         font-size: 5rem; 
     } 
-
     .heading-secondary,
     .wallet-card h2  {
         font-size: 4rem; 
@@ -13,7 +21,8 @@
 
     .heading-tertiary,
     .heading-tertiary-variant,
-    .heading-tertiary-white {
+    .heading-tertiary-white,
+    .heading-tertiary-variation {
         font-size: 3rem; 
     }
 
@@ -79,9 +88,36 @@
     .header .navbar ul.navbar-nav .form-group #basic button {
         margin-left: 0;
     }
+    .section-newsletter .newsletter-wrapper .form-control,
+    .section-newsletter .newsletter-wrapper .btn.btn-info.btn-subscribe {
+        margin-bottom: 1rem;
+    }
+    .wallet .section-walletdetails__wrapper .wallet-card p,
+    .loan .section-features__paragraph,
+    .loan .section-payroll__paragraph,
+    .main .section-wallet p.paragraph,
+    .main .section-loan p.paragraph {
+        width: auto;
+    }
+    .loan .section-image {
+        margin-bottom: 19rem;
+    }
+    main .section-wallet {
+        padding: 50px 25px 60px 25px;
+    }
 }
 
 @media screen and (max-width: 576px) {
+    header .margin-left-10 {
+        margin-left: 0;
+    }
+    .header__box img  {
+        margin-top: 10px;
+    }
+    main .section-wallet {
+        padding: 3rem;
+    }
+    main .section-wallet .margin-top-120,
     .tab-content h2 {
         margin-top: 3rem; 
     } 
@@ -92,7 +128,14 @@
         float: left;
         width: auto; 
     }
-    .section-testimonial h3.text-center {
+    main .section-wallet p.paragraph,
+    main .section-loan p.paragraph,
+    main .section-investment .section-payment p.paragraph,
+    main p.paragraph {
+        width: auto;
+    }
+    .section-testimonial h3.text-center,
+    main .section-testimonial h4.text-center {
         width: 90%; 
     }
     .investment .section-investmentterms img {
@@ -116,6 +159,9 @@
     .footer .footer__bottom .form-inline .btn.btn-info.btn-subscribe {
         margin-left: 0; 
     } 
+    .header .d-flex {
+        display: block!important;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -140,4 +186,16 @@
     .investment .section-investmentterms img {
         position: relative; 
     } 
+}
+
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+    .header .navbar ul.navbar-nav .nav-link {
+        padding: 0 2rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    main .section-newsletter .newsletter-wrapper .d-flex form {
+        padding: 0px 3rem;
+    }
 }

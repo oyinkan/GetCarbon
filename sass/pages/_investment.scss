@@ -5,7 +5,7 @@
 
         &__box {
             position: relative;
-            padding-top: 2rem;
+            padding-top: 0;
             
             .investment {
                 position: absolute;
@@ -15,9 +15,7 @@
     }
 
     .section-steps {
-        .half-size {
-            width: 50%;
-        }
+        padding: 6rem 0;
 
         &__image {
             background: url(../images/investment.png);
@@ -28,28 +26,27 @@
         }
 
         &__wrapper {
-            padding: 4rem 7rem;
-            width: 50%;
+            padding: 0 3rem;
 
             .line {
                 width: 2px;
-                height: 88px;
+                height: 70px;
                 border: solid 1px #3f2e8c;
                 margin-left: 2.9rem;
                 margin-top: 5rem;
-                margin-bottom: 2rem;
+                margin-bottom: 1rem;
             }
 
             h6 {
-                width: 73%;
                 @include textstyle($heading-four-size, 600, normal, normal, $color-primary);
+                margin-top: 2.5rem;
             }
         }
     }
 
     .section-investmentterms {
         background-color: #fff7f6;
-        padding-top: 8rem;
+        padding: 6rem 0;
         position: relative;
 
         img {
@@ -59,8 +56,8 @@
     }
 
     .section-plan {
-        padding: 8rem 0;
-
+        padding: 4rem 0;
+        padding-bottom: 2rem;
     }
 
     .section-charges {
@@ -71,6 +68,19 @@
             font-weight: bold;
             letter-spacing: -0.22px;
             margin-top: 2rem;
+        }
+
+        p i {
+            display: inline-block;
+            width: 2.5rem;
+            height: 2.5rem;
+            background: #fff;
+            font-size: 1rem;
+            text-align: center;
+            padding-top: 8px;
+            border-radius: 50%;
+            position: relative;
+            top: -4px;
         }
     }
 

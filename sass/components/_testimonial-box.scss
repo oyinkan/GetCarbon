@@ -1,10 +1,15 @@
 .testimonial-box {
-    border-radius: 8px;
-    border: solid 2px #dfe4ea;
+    border-radius: 5px;
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.05);
+    background-color: $color-white;
     padding: 3rem;
-    text-align: center;
     font-size: 1.4rem;
-    margin: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+
+    &:not(:last-child) {
+        margin-right: 1.5rem;
+    }
     
     hr {
         width: 60%;
@@ -16,13 +21,15 @@
         width: 62px;
         height: 62px;
         background-color: #696cff;
-        margin: auto;
         border-radius: 50%;
+        margin-right: 1rem;
     }
 
     &__name {
         @include testimonial(600, 1.36, -0.55px, $color-secondary);
         font-size: 2.2rem;
+        margin-top: 10px;
+        margin-bottom: -5px;
     }
 
     &__position {

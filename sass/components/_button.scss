@@ -14,23 +14,42 @@
         box-shadow: 0 5px 10px rgba($color-black, 0.2);
     }
 }
-.btn.btn-info.btn-create {
+.btn.btn-info.btn-login {
     &:link,
     &:visited {
         @include buttonStyle(6px, #400d85, 1.6rem, bold, 1.5, normal);
         position: relative;
         border: solid 3px #3a0b79;
         transition: all .2s;
-        padding: 10px 20px;
+        padding: 10px 30px;
         padding-top: 6px;
         display: inline-block;
         text-transform: capitalize;
     }
 }
+.btn.btn-info.btn-create {
+    &:link,
+    &:visited {
+        background: transparent;
+        border-radius: 6px;
+        border: solid 1px #26b7fa;
+        font-size: 16px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: center;
+        color: #071a2d;
+        padding: 10px 20px;
+    }
+}
 
 .btn.btn-info.btn-subscribe {
-    @include buttonStyle(8px, #4737ff, 1.8rem, 600, normal, -0.4px);
-    padding: 3px 20px 7px 20px;
-    border-color: #4737ff;
-    margin-left: 10px;
+    @include buttonStyle(8px, #3b2f85, 1.8rem, 600, normal, -0.4px);
+    width: 100%;
+    padding: 1rem 3rem;
+    padding-top: 7px;
+    border-color: #3b2f85;
+    height: 52px;
 }

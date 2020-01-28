@@ -46,7 +46,7 @@ a:hover {
   font-stretch: normal;
   font-style: normal;
   font-size: 6rem;
-  font-weight: 800;
+  font-weight: bold;
   letter-spacing: normal;
   line-height: 1.07;
   color: #fff; }
@@ -69,13 +69,6 @@ a:hover {
   letter-spacing: normal;
   line-height: 1.17;
   color: #071a2d; }
-  .heading-primary-variant span {
-    border-radius: 7px;
-    background: #3f2e8c;
-    color: #fff;
-    padding: 0px 1rem 1rem 1rem;
-    display: inline-block;
-    margin-top: 1rem; }
 
 .heading-secondary {
   font-stretch: normal;
@@ -125,6 +118,16 @@ a:hover {
   line-height: 1.33;
   color: #fff; }
 
+.heading-tertiary-variation {
+  font-stretch: normal;
+  font-style: normal;
+  font-size: 3.6rem;
+  font-weight: 500;
+  letter-spacing: normal;
+  line-height: normal;
+  color: #071a2d;
+  text-align: center; }
+
 .heading-four {
   font-stretch: normal;
   font-style: normal;
@@ -155,6 +158,16 @@ a:hover {
   line-height: normal;
   color: #fff; }
 
+.heading-four-variation {
+  font-stretch: normal;
+  font-style: normal;
+  font-size: 2.8rem;
+  font-weight: 500;
+  letter-spacing: 1.36;
+  line-height: normal;
+  color: #071a2d;
+  text-align: center; }
+
 .paragraph {
   font-stretch: normal;
   font-style: normal;
@@ -164,14 +177,11 @@ a:hover {
   line-height: 1.4;
   color: #071a2d;
   margin-top: 2rem; }
-  .paragraph span {
-    font-weight: bold;
-    color: #3f2e8c; }
 
 .paragraph-white {
   font-stretch: normal;
   font-style: normal;
-  font-size: 2.1rem;
+  font-size: 2rem;
   font-weight: normal;
   letter-spacing: normal;
   line-height: 1.52;
@@ -201,12 +211,15 @@ a:hover {
   font-stretch: normal;
   font-style: normal;
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: normal;
   letter-spacing: -0.5px;
   line-height: 1.4;
   color: #400d85;
   display: inline-block;
   margin-top: 3.5rem; }
+  .anchor-link i {
+    position: relative;
+    top: 2px; }
 
 .pull-right {
   float: right; }
@@ -245,6 +258,18 @@ a:hover {
 .padding-bottom-70 {
   padding-bottom: 7rem; }
 
+.margin-top-120 {
+  margin-top: 12rem; }
+
+.margin-top-60 {
+  margin-top: 6rem; }
+
+.margin-top-40 {
+  margin-top: 4rem; }
+
+.margin-top-20 {
+  margin-top: 20px; }
+
 .btn.btn-info:hover {
   transform: translateY(-3px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); }
@@ -255,7 +280,7 @@ a:hover {
   transform: translateY(-1px);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); }
 
-.btn.btn-info.btn-create:link, .btn.btn-info.btn-create:visited {
+.btn.btn-info.btn-login:link, .btn.btn-info.btn-login:visited {
   font-stretch: normal;
   font-style: normal;
   text-align: center;
@@ -269,10 +294,24 @@ a:hover {
   position: relative;
   border: solid 3px #3a0b79;
   transition: all .2s;
-  padding: 10px 20px;
+  padding: 10px 30px;
   padding-top: 6px;
   display: inline-block;
   text-transform: capitalize; }
+
+.btn.btn-info.btn-create:link, .btn.btn-info.btn-create:visited {
+  background: transparent;
+  border-radius: 6px;
+  border: solid 1px #26b7fa;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #071a2d;
+  padding: 10px 20px; }
 
 .btn.btn-info.btn-subscribe {
   font-stretch: normal;
@@ -280,22 +319,27 @@ a:hover {
   text-align: center;
   color: #fff;
   border-radius: 8px;
-  background-color: #4737ff;
+  background-color: #3b2f85;
   font-size: 1.8rem;
   font-weight: 600;
   line-height: normal;
   letter-spacing: -0.4px;
-  padding: 3px 20px 7px 20px;
-  border-color: #4737ff;
-  margin-left: 10px; }
+  width: 100%;
+  padding: 1rem 3rem;
+  padding-top: 7px;
+  border-color: #3b2f85;
+  height: 52px; }
 
 .testimonial-box {
-  border-radius: 8px;
-  border: solid 2px #dfe4ea;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.05);
+  background-color: #fff;
   padding: 3rem;
-  text-align: center;
   font-size: 1.4rem;
-  margin: 2rem; }
+  margin-top: 2rem;
+  margin-bottom: 4rem; }
+  .testimonial-box:not(:last-child) {
+    margin-right: 1.5rem; }
   .testimonial-box hr {
     width: 60%;
     background-color: #dfe4ea;
@@ -304,8 +348,8 @@ a:hover {
     width: 62px;
     height: 62px;
     background-color: #696cff;
-    margin: auto;
-    border-radius: 50%; }
+    border-radius: 50%;
+    margin-right: 1rem; }
   .testimonial-box__name {
     font-stretch: normal;
     font-style: normal;
@@ -313,7 +357,9 @@ a:hover {
     line-height: 1.36;
     letter-spacing: -0.55px;
     color: #18214d;
-    font-size: 2.2rem; }
+    font-size: 2.2rem;
+    margin-top: 10px;
+    margin-bottom: -5px; }
   .testimonial-box__position {
     font-stretch: normal;
     font-style: normal;
@@ -321,36 +367,6 @@ a:hover {
     line-height: 1.43;
     letter-spacing: -0.4px;
     color: #3e4462; }
-
-.wallet-card {
-  width: 50%;
-  padding: 3.5rem 3.5rem 7rem 3.5rem; }
-  .wallet-card h2 {
-    font-stretch: normal;
-    font-style: normal;
-    font-size: 4.64rem;
-    font-weight: bold;
-    letter-spacing: normal;
-    line-height: normal;
-    color: #4c36b0; }
-  .wallet-card h6 {
-    font-stretch: normal;
-    font-style: normal;
-    font-size: 2.24rem;
-    font-weight: bold;
-    letter-spacing: normal;
-    line-height: 1.36;
-    color: #071a2d; }
-  .wallet-card p {
-    font-stretch: normal;
-    font-style: normal;
-    font-size: 1.6rem;
-    font-weight: normal;
-    letter-spacing: normal;
-    line-height: 1.5;
-    color: #071a2d;
-    width: 85.5%;
-    margin-top: 3rem; }
 
 .nav-tabs .nav-link {
   font-stretch: normal;
@@ -440,8 +456,7 @@ a:hover {
       padding: 6px 10px 5px 10px;
       font-size: 16px; }
     .header .navbar ul.navbar-nav {
-      padding: 10px 10px 15px 10px;
-      margin-left: auto; }
+      padding: 10px 10px 15px 10px; }
       .header .navbar ul.navbar-nav .nav-link {
         font-stretch: normal;
         font-style: normal;
@@ -450,7 +465,7 @@ a:hover {
         letter-spacing: normal;
         line-height: 1.5;
         color: #071a2d;
-        padding: 0 3.5rem; }
+        padding: 0 4.5rem; }
         .header .navbar ul.navbar-nav .nav-link:hover {
           color: #400d85;
           font-weight: 600; }
@@ -487,6 +502,12 @@ a:hover {
         letter-spacing: normal;
         line-height: 1.5;
         color: #071a2d; }
+    .header .navbar ul.navbar-nav.second-nav .nav-link {
+      padding-top: 1.2rem; }
+    .header .navbar ul.navbar-nav.second-nav .btn.btn-info.btn-login:link,
+    .header .navbar ul.navbar-nav.second-nav .btn.btn-info.btn-login:visited {
+      padding-top: 0.9rem;
+      margin-right: 1rem; }
   .header__box {
     padding-top: 5rem; }
   .header__access-box {
@@ -522,6 +543,8 @@ a:hover {
   padding: 40px 0; }
   .footer__top .container-fluid {
     width: 94%; }
+    .footer__top .container-fluid h3 {
+      font-weight: 500; }
     .footer__top .container-fluid img {
       height: 45px; }
 .footer__bottom {
@@ -533,30 +556,29 @@ a:hover {
     font-stretch: normal;
     font-style: normal;
     font-size: 1.6rem;
-    font-weight: 800;
+    font-weight: 600;
     letter-spacing: -0.4px;
     line-height: 1.38;
     color: #fff; }
   .footer__bottom p a {
-    -webkit-text-stroke: 1px #979797;
     font-stretch: normal;
     font-style: normal;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-weight: normal;
     letter-spacing: -0.2px;
     line-height: 1.63;
     color: rgba(255, 255, 255, 0.66); }
   .footer__bottom hr {
     background-color: rgba(255, 255, 255, 0.66);
-    margin-top: 4rem; }
-  .footer__bottom .newsletter {
+    margin-top: 9rem; }
+  .footer__bottom .powered {
     font-stretch: normal;
     font-style: normal;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     font-weight: normal;
-    letter-spacing: -0.3px;
-    line-height: 1.44;
-    color: #3e4462; }
+    letter-spacing: normal;
+    line-height: 1.67;
+    color: rgba(255, 255, 255, 0.8); }
   .footer__bottom input.form-control {
     font-stretch: normal;
     font-style: normal;
@@ -569,76 +591,118 @@ a:hover {
     background-color: #eff2f6;
     height: auto;
     padding-bottom: 6px; }
-  .footer__bottom .d-flex {
-    margin-top: -12px; }
 
-.slick-dots {
-  display: flex;
-  justify-content: center;
-  margin: 0;
-  padding: 5rem 0;
-  list-style-type: none; }
-  .slick-dots li {
-    margin: 0 0.25rem; }
-  .slick-dots button {
-    display: block;
-    width: 1rem;
-    height: 1rem;
-    background-color: #dfe4ea;
-    padding: 0;
-    border: none;
-    border-radius: 100%;
-    text-indent: -9999px; }
-  .slick-dots li.slick-active button {
-    background-color: #18214d; }
-
-.section-wallet {
+.main .section-wallet {
   border-radius: 20px;
   background-image: linear-gradient(358deg, #fcfcff 96%, #ffffff 39%);
-  padding: 50px 40px 60px 40px;
-  margin-top: -110px; }
-
-.section-payment {
-  border-radius: 20px;
-  background-color: #fbfaff;
-  padding-top: 3rem;
-  text-align: center; }
-  .section-payment .paragraph-div {
-    width: 60%;
-    margin: 20px auto; }
-
-.section-report {
-  padding-top: 50px; }
-
-.section-clients {
-  padding: 50px 0 40px 0;
-  background-color: #f7f9fa;
-  text-align: center; }
-  .section-clients img {
-    margin-top: 3.5rem; }
-  .section-clients hr {
-    background-color: #f7f9fa;
-    margin-top: 3rem; }
-
-.section-testimonial {
-  padding: 4rem 0; }
-  .section-testimonial h3.text-center {
-    width: 70%;
+  padding: 50px 65px 60px 65px;
+  margin-top: -95px; }
+  .main .section-wallet p.paragraph {
+    width: 84%; }
+.main .section-loan {
+  padding-bottom: 6rem; }
+  .main .section-loan p.paragraph {
+    width: 70%; }
+  .main .section-loan a {
+    margin-top: 1rem; }
+.main .section-investment {
+  background-image: linear-gradient(to bottom, #fbfaff, #ffffff 43%);
+  padding: 3rem 0; }
+  .main .section-investment a {
+    margin-top: 1rem; }
+  .main .section-investment .section-payment p.paragraph {
+    width: 85%; }
+.main .section-report {
+  padding: 5rem 0; }
+.main .section-testimonial {
+  background: #fafafa;
+  padding: 3rem 0;
+  padding-bottom: 9rem; }
+  .main .section-testimonial h4.text-center {
+    width: 58%;
     margin: 4rem auto; }
-  .section-testimonial .item.slick-slide.slick-active .testimonial-box {
-    background-color: #eff2f6; }
+  .main .section-testimonial .carousel .carousel-indicators {
+    bottom: -4.5rem; }
+    .main .section-testimonial .carousel .carousel-indicators li {
+      width: 1rem;
+      height: 1rem;
+      background-color: #e2e8eb;
+      border-radius: 100%; }
+    .main .section-testimonial .carousel .carousel-indicators li.active {
+      background-color: #3b2f85; }
+.main .section-newsletter {
+  background-image: url(./../images/newsletter.svg);
+  background-size: cover;
+  padding: 4rem 0; }
+  .main .section-newsletter .newsletter-wrapper {
+    border-radius: 10px;
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.07);
+    background-color: #55499f;
+    padding: 4rem 0;
+    text-align: center; }
+    .main .section-newsletter .newsletter-wrapper h3 {
+      font-stretch: normal;
+      font-style: normal;
+      font-size: 3.2rem;
+      font-weight: 600;
+      letter-spacing: normal;
+      line-height: 1.25;
+      color: #fff; }
+    .main .section-newsletter .newsletter-wrapper .d-flex {
+      justify-content: center;
+      margin-top: 2rem; }
+      .main .section-newsletter .newsletter-wrapper .d-flex .form-control {
+        font-stretch: normal;
+        font-style: normal;
+        font-size: 2rem;
+        font-weight: normal;
+        letter-spacing: normal;
+        line-height: 1.4;
+        color: #071a2d;
+        padding: 1rem 3rem;
+        height: 50px;
+        border-radius: 8px;
+        background-color: #eff2f6;
+        border: 0; }
+.main .section-clients {
+  padding: 50px 0;
+  text-align: center; }
+  .main .section-clients h3 {
+    font-weight: 500; }
+  .main .section-clients img {
+    margin-top: 3.5rem; }
+  .main .section-clients hr {
+    background-color: #dfe4ea;
+    margin-top: 5rem; }
+.main p.paragraph {
+  width: 95%; }
 
 .wallet .header {
   background-image: radial-gradient(circle at 62% 37%, #ffffff, #ffffff 39%, #f6f5fa 83%);
+  background: #faf7fe;
   padding-bottom: 0; }
 .wallet .paragraph-wrapper {
   width: 75%; }
 .wallet .section-walletdetails {
-  background-color: #f4f4f5;
   padding: 8rem 0; }
-  .wallet .section-walletdetails__wrapper {
-    border-radius: 8px;
-    background-color: rgba(255, 255, 255, 0.6); }
+  .wallet .section-walletdetails__wrapper .wallet-card h6 {
+    font-stretch: normal;
+    font-style: normal;
+    font-size: 2.24rem;
+    font-weight: bold;
+    letter-spacing: normal;
+    line-height: 1.36;
+    color: #071a2d; }
+  .wallet .section-walletdetails__wrapper .wallet-card p {
+    font-stretch: normal;
+    font-style: normal;
+    font-size: 1.6rem;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-height: 1.5;
+    color: #071a2d;
+    width: 67.5%;
+    margin-top: 3rem; }
 
 .section-terms {
   padding: 5rem 0; }
@@ -651,9 +715,8 @@ a:hover {
 .loan .section-howitworks {
   background-image: linear-gradient(to right, #3d2e84 0%, #8e64db 100%);
   padding: 8rem 0;
-  padding-bottom: 25rem;
-  transform: skewY(-7deg);
-  margin-bottom: 10rem; }
+  padding-bottom: 37rem;
+  transform: skewY(-7deg); }
   .loan .section-howitworks > * {
     transform: skewY(7deg); }
   .loan .section-howitworks .icon-wrapper i {
@@ -663,27 +726,11 @@ a:hover {
     clear: both; }
 .loan .section-image {
   margin-top: -35rem;
-  position: relative;
-  margin-bottom: 5rem; }
+  position: relative; }
 .loan .section-features {
   padding: 4rem 0; }
-  .loan .section-features__icon {
-    width: 83px;
-    height: 83px;
-    border-radius: 50%;
+  .loan .section-features img {
     margin-bottom: 1.5rem; }
-    .loan .section-features__icon i {
-      display: block;
-      text-align: center;
-      padding-top: 3.5rem;
-      font-size: 1.6rem;
-      color: #fff; }
-    .loan .section-features__icon--icon-purple {
-      background-color: #8e66d9; }
-    .loan .section-features__icon--icon-green {
-      background-color: #2cd5c4; }
-    .loan .section-features__icon--icon-orange {
-      background-color: #ff9841; }
   .loan .section-features__paragraph {
     font-stretch: normal;
     font-style: normal;
@@ -691,9 +738,15 @@ a:hover {
     font-weight: normal;
     letter-spacing: -0.2px;
     line-height: 1.44;
-    color: #071a2d; }
+    color: #071a2d;
+    width: 74%; }
+.loan .section-referral {
+  background: #edfcff; }
+  .loan .section-referral__wrapper {
+    width: 75%;
+    margin: auto;
+    margin-top: 8rem; }
 .loan .section-payroll {
-  background-image: linear-gradient(to top, rgba(250, 250, 251, 0.23), rgba(247, 247, 255, 0.48));
   padding: 5rem 0 4rem 0; }
   .loan .section-payroll__heading-primary {
     font-stretch: normal;
@@ -704,7 +757,7 @@ a:hover {
     line-height: 1.11;
     color: #071a2d; }
   .loan .section-payroll__paragraph {
-    width: 85%;
+    width: 65%;
     font-stretch: normal;
     font-style: normal;
     font-size: 1.8rem;
@@ -712,54 +765,11 @@ a:hover {
     letter-spacing: -0.3px;
     line-height: 1.44;
     color: #071a2d; }
-  .loan .section-payroll__referral-wrapper {
-    width: 85%;
-    border-radius: 6px;
-    box-shadow: 0 0 40px 10px rgba(7, 26, 45, 0.04);
-    background-color: #fff;
-    padding: 1rem 2rem 2rem 2rem; }
-    .loan .section-payroll__referral-wrapper p {
-      font-stretch: normal;
-      font-style: normal;
-      font-size: 1.8rem;
-      font-weight: bold;
-      letter-spacing: normal;
-      line-height: normal;
-      color: #071a2d; }
-    .loan .section-payroll__referral-wrapper span {
-      display: inline-block;
-      font-stretch: normal;
-      font-style: normal;
-      font-size: 1.4rem;
-      font-weight: normal;
-      letter-spacing: normal;
-      line-height: 1.57;
-      color: rgba(7, 26, 45, 0.8); }
   .loan .section-payroll a {
-    margin-top: 1.8rem; }
+    margin-top: 0; }
 .loan .section-additionalinfo {
+  background: #f9f9f8;
   padding: 4rem 0; }
-  .loan .section-additionalinfo__info {
-    width: 100%;
-    text-align: center;
-    border-bottom: 1px solid #dfe4ea;
-    line-height: 0.1em;
-    margin: 1rem 0 2rem;
-    position: relative; }
-    .loan .section-additionalinfo__info span {
-      background: #fff;
-      padding: 0.7rem 1.5rem 1rem 1.5rem;
-      border: solid 1px #dfe4ea;
-      position: relative;
-      top: 2.5rem;
-      border-radius: 21.5px;
-      font-stretch: normal;
-      font-style: normal;
-      font-size: 1.6rem;
-      font-weight: 600;
-      letter-spacing: 0.8px;
-      line-height: normal;
-      color: #3f454b; }
   .loan .section-additionalinfo__infohead {
     font-stretch: normal;
     font-style: normal;
@@ -786,46 +796,46 @@ a:hover {
   padding-bottom: 0; }
   .investment .header__box {
     position: relative;
-    padding-top: 2rem; }
+    padding-top: 0; }
     .investment .header__box .investment {
       position: absolute;
       bottom: 0; }
-.investment .section-steps .half-size {
-  width: 50%; }
-.investment .section-steps__image {
-  background: url(../images/investment.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100%;
-  background-position: center; }
-.investment .section-steps__wrapper {
-  padding: 4rem 7rem;
-  width: 50%; }
-  .investment .section-steps__wrapper .line {
-    width: 2px;
-    height: 88px;
-    border: solid 1px #3f2e8c;
-    margin-left: 2.9rem;
-    margin-top: 5rem;
-    margin-bottom: 2rem; }
-  .investment .section-steps__wrapper h6 {
-    width: 73%;
-    font-stretch: normal;
-    font-style: normal;
-    font-size: 2.4rem;
-    font-weight: 600;
-    letter-spacing: normal;
-    line-height: normal;
-    color: #071a2d; }
+.investment .section-steps {
+  padding: 6rem 0; }
+  .investment .section-steps__image {
+    background: url(../images/investment.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center; }
+  .investment .section-steps__wrapper {
+    padding: 0 3rem; }
+    .investment .section-steps__wrapper .line {
+      width: 2px;
+      height: 70px;
+      border: solid 1px #3f2e8c;
+      margin-left: 2.9rem;
+      margin-top: 5rem;
+      margin-bottom: 1rem; }
+    .investment .section-steps__wrapper h6 {
+      font-stretch: normal;
+      font-style: normal;
+      font-size: 2.4rem;
+      font-weight: 600;
+      letter-spacing: normal;
+      line-height: normal;
+      color: #071a2d;
+      margin-top: 2.5rem; }
 .investment .section-investmentterms {
   background-color: #fff7f6;
-  padding-top: 8rem;
+  padding: 6rem 0;
   position: relative; }
   .investment .section-investmentterms img {
     position: absolute;
     bottom: 0; }
 .investment .section-plan {
-  padding: 8rem 0; }
+  padding: 4rem 0;
+  padding-bottom: 2rem; }
 .investment .section-charges {
   background-color: #e0f9ff; }
   .investment .section-charges h6 {
@@ -833,7 +843,35 @@ a:hover {
     font-weight: bold;
     letter-spacing: -0.22px;
     margin-top: 2rem; }
+  .investment .section-charges p i {
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: #fff;
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 8px;
+    border-radius: 50%;
+    position: relative;
+    top: -4px; }
 .investment p {
   width: 91%; }
+
+#payment .header {
+  background: #fefaf6;
+  padding-bottom: 2rem; }
+  #payment .header__box {
+    padding-top: 0; }
+    #payment .header__box p {
+      width: 84%; }
+#payment .section-transfer {
+  padding-top: 5rem; }
+#payment .section-recharge {
+  background: url(./../images/payment/recharge-airtime-bg.svg);
+  background-size: cover; }
+  #payment .section-recharge__rwrapper {
+    margin-top: 14rem; }
+    #payment .section-recharge__rwrapper p {
+      width: 90%; }
 
 /*# sourceMappingURL=style.css.map */

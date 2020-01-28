@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="35px" height="40px" viewBox="0 0 35 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="3.061617e-15%" id="linearGradient-1">
+            <stop stop-color="#735BC0" offset="0%"></stop>
+            <stop stop-color="#3F2E8C" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="3.061617e-15%" id="linearGradient-2">
+            <stop stop-color="#735BC0" offset="0%"></stop>
+            <stop stop-color="#3F2E8C" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="GetCarbon-Main-Website-V2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="GetCarbon-Instant-loan-(v2)" transform="translate(-476.000000, -843.000000)">
+            <g id="Group-5" transform="translate(78.000000, 843.000000)">
+                <g id="Group-4" transform="translate(398.000000, 0.000000)">
+                    <g id="Group-3">
+                        <circle id="Oval" fill-opacity="0.237980769" fill="#FFFFFF" cx="13.7647059" cy="13.7647059" r="13.7647059"></circle>
+                        <g id="Clipboard-list" transform="translate(11.000000, 7.000000)">
+                            <path d="M21.34,2.97 C22.6765291,2.97 23.76,4.05347091 23.76,5.39 L23.76,30.25 C23.76,31.5865291 22.6765291,32.67 21.34,32.67 L2.42,32.67 C1.08347091,32.67 1.63677608e-16,31.5865291 0,30.25 L0,5.39 C-1.63677608e-16,4.05347091 1.08347091,2.97 2.42,2.97 L5.94,2.97 L5.94,3.7125 C5.94,4.8892267 6.85245045,5.85283918 8.00842105,5.93440714 L8.1675,5.94 L15.5925,5.94 C16.8227143,5.94 17.82,4.94271428 17.82,3.7125 L17.82,3.7125 L17.82,2.97 L21.34,2.97 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                            <path d="M11.88,0 C12.7001429,0 13.365,0.664857147 13.365,1.485 L13.365,1.485 L15.125,1.485 C15.7932645,1.485 16.335,2.02673545 16.335,2.695 L16.335,3.245 C16.335,3.91326455 15.7932645,4.455 15.125,4.455 L8.635,4.455 C7.96673545,4.455 7.425,3.91326455 7.425,3.245 L7.425,2.695 C7.425,2.02673545 7.96673545,1.485 8.635,1.485 L10.395,1.485 C10.395,0.664857147 11.0598571,0 11.88,0 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                            <rect id="Rectangle-152" fill="url(#linearGradient-1)" x="8.91" y="11.88" width="10.395" height="2.97" rx="1.485"></rect>
+                            <rect id="Rectangle-152-Copy-2" fill="url(#linearGradient-2)" x="4.455" y="11.88" width="2.97" height="2.97" rx="1.485"></rect>
+                            <rect id="Rectangle-152-Copy-3" fill="url(#linearGradient-2)" x="4.455" y="17.82" width="2.97" height="2.97" rx="1.485"></rect>
+                            <rect id="Rectangle-152-Copy" fill="url(#linearGradient-1)" x="8.91" y="17.82" width="10.395" height="2.97" rx="1.485"></rect>
+                            <rect id="Rectangle-152-Copy-5" fill="url(#linearGradient-2)" x="4.455" y="23.76" width="2.97" height="2.97" rx="1.485"></rect>
+                            <rect id="Rectangle-152-Copy-4" fill="url(#linearGradient-1)" x="8.91" y="23.76" width="10.395" height="2.97" rx="1.485"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

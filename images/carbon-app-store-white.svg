@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="197" height="65" viewBox="0 0 197 65">
+    <g fill="none" fill-rule="evenodd">
+        <rect width="196.128" height="64.224" fill="#FFF" fill-rule="nonzero" rx="8.781"/>
+        <g fill="#3B2F85" font-family="Helvetica" font-size="24.48">
+            <text transform="translate(64.947 23.904)">
+                <tspan x="0" y="24">A</tspan>
+            </text>
+            <text transform="translate(64.947 23.904)">
+                <tspan x="17.061" y="24">p</tspan>
+            </text>
+            <text transform="translate(64.947 23.904)">
+                <tspan x="31.113" y="24">p</tspan>
+            </text>
+            <text transform="translate(64.947 23.904)">
+                <tspan x="50.06" y="24">S</tspan>
+            </text>
+            <text transform="translate(64.947 23.904)">
+                <tspan x="65.956" y="24">t</tspan>
+            </text>
+            <text transform="translate(64.947 23.904)">
+                <tspan x="72.386" y="24">o</tspan>
+            </text>
+            <text transform="translate(64.947 23.904)">
+                <tspan x="86.046" y="24">r</tspan>
+            </text>
+            <text transform="translate(64.947 23.904)">
+                <tspan x="94.738" y="24">e</tspan>
+            </text>
+        </g>
+        <g fill="#3B2F85" font-family="ProductSans-Regular, Product Sans" font-size="14.4">
+            <text transform="translate(66.156 9.492)">
+                <tspan x="0" y="14">D</tspan>
+            </text>
+            <text transform="translate(66.156 9.492)">
+                <tspan x="9.734" y="14">o</tspan>
+            </text>
+            <text transform="translate(66.156 9.492)">
+                <tspan x="17.654" y="14">wn</tspan>
+            </text>
+            <text transform="translate(66.156 9.492)">
+                <tspan x="36.317" y="14">l</tspan>
+            </text>
+            <text transform="translate(66.156 9.492)">
+                <tspan x="39.182" y="14">o</tspan>
+            </text>
+            <text transform="translate(66.156 9.492)">
+                <tspan x="47.246" y="14">a</tspan>
+            </text>
+            <text transform="translate(66.156 9.492)">
+                <tspan x="54.518" y="14">d</tspan>
+            </text>
+            <text transform="translate(66.156 9.492)">
+                <tspan x="65.981" y="14">o</tspan>
+            </text>
+            <text transform="translate(66.156 9.492)">
+                <tspan x="73.901" y="14">n</tspan>
+            </text>
+            <text transform="translate(66.156 9.492)">
+                <tspan x="84.874" y="14">t</tspan>
+            </text>
+            <text transform="translate(66.156 9.492)">
+                <tspan x="90.043" y="14">he</tspan>
+            </text>
+        </g>
+        <path fill="#3B2F85" fill-rule="nonzero" d="M46.812 32.11c-.044-4.687 3.836-6.968 4.014-7.074-2.197-3.203-5.61-3.64-6.8-3.675-2.86-.288-5.636 1.71-7.093 1.71-1.457 0-3.744-1.681-6.149-1.632-3.11.049-6.022 1.852-7.62 4.648-3.295 5.702-.835 14.083 2.321 18.694 1.578 2.26 3.424 4.78 5.84 4.692 2.362-.098 3.247-1.507 6.098-1.507 2.85 0 3.654 1.507 6.117 1.44 2.537-.04 4.133-2.266 5.656-4.547a18.654 18.654 0 0 0 2.592-5.265c-.06-.023-4.925-1.88-4.974-7.488l-.002.003zm-4.655-13.782c1.27-1.59 2.14-3.744 1.898-5.944-1.837.08-4.138 1.273-5.472 2.825-1.172 1.371-2.22 3.615-1.95 5.726 2.068.155 4.188-1.043 5.516-2.592l.008-.015z"/>
+    </g>
+</svg>

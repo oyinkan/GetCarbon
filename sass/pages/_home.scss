@@ -1,52 +1,125 @@
-.section-wallet {
-    border-radius: 20px;
-    background-image: linear-gradient(358deg, rgba(252, 252, 255, 1) 96%, #ffffff 39%);
-    padding: 50px 40px 60px 40px;
-    margin-top: -110px;
-}
+.main {
+    .section-wallet {
+        border-radius: 20px;
+        background-image: linear-gradient(358deg, rgba(252, 252, 255, 1) 96%, #ffffff 39%);
+        padding: 50px 65px 60px 65px;
+        margin-top: -95px;
 
-.section-payment {
-    border-radius: 20px;
-    background-color: #fbfaff;
-    padding-top: 3rem;
-    text-align: center;
-
-    .paragraph-div {
-        width: 60%;
-        margin: 20px auto;
-    }
-}
-
-.section-report {
-    padding-top: 50px;
-}
-
-.section-clients {
-    padding: 50px 0 40px 0; 
-    background-color: #f7f9fa;
-    text-align: center;
-
-    img {
-        margin-top: 3.5rem;
-    }
-
-    hr {
-        background-color: #f7f9fa;
-        margin-top: 3rem;
-    }
-}
-
-.section-testimonial {
-    padding: 4rem 0;
-
-    h3.text-center {
-        width: 70%;
-        margin: 4rem auto;
-    }
-
-    .item.slick-slide.slick-active {
-        .testimonial-box {
-            background-color: #eff2f6;
+        p.paragraph {
+            width: 84%;
         }
+    }
+
+    .section-loan {
+        padding-bottom: 6rem;
+
+        p.paragraph {
+            width: 70%;
+        }
+
+        a {
+            margin-top: 1rem;
+        }
+    }
+
+    .section-investment {
+        background-image: linear-gradient(to bottom, #fbfaff, #ffffff 43%);
+        padding: 3rem 0;
+
+        a {
+            margin-top: 1rem;
+        }
+
+        .section-payment {
+            p.paragraph {
+                width: 85%;
+            }
+        }
+    }
+
+    .section-report {
+        padding: 5rem 0;
+    }
+
+    .section-testimonial {
+        background: #fafafa;
+        padding: 3rem 0;
+        padding-bottom: 9rem;
+
+        h4.text-center {
+            width: 58%;
+            margin: 4rem auto;
+        }
+
+        .carousel {
+            .carousel-indicators {
+                bottom: -4.5rem;
+
+                li {
+                    width: 1rem;
+                    height: 1rem;
+                    background-color: #e2e8eb;
+                    border-radius: 100%;
+                }
+
+                li.active {
+                    background-color: #3b2f85;
+                }
+            }
+        }
+    }
+
+    .section-newsletter {
+        background-image: url(./../images/newsletter.svg);
+        background-size: cover;
+        padding: 4rem 0;
+
+        .newsletter-wrapper {
+            border-radius: 10px;
+            box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.07);
+            background-color: #55499f;
+            padding: 4rem 0;
+            text-align: center;
+
+            h3 {
+                @include textstyle(3.2rem, 600, normal, 1.25, $color-white);
+            }
+
+            .d-flex {
+                justify-content: center;
+                margin-top: 2rem;
+
+                .form-control {
+                    @include textstyle(2rem, normal, normal, 1.4, $color-primary);
+                    padding: 1rem 3rem;
+                    height: 50px;
+                    border-radius: 8px;
+                    background-color: #eff2f6;
+                    border: 0;
+                }
+            }
+        }
+    }
+
+    .section-clients {
+        padding: 50px 0; 
+        text-align: center;
+
+        h3 {
+            font-weight: 500;
+        }
+
+        img {
+            margin-top: 3.5rem;
+        }
+
+        hr {
+            background-color: #dfe4ea;
+            margin-top: 5rem;
+        }
+    }
+
+    p.paragraph {
+        width: 95%;
     }
 }

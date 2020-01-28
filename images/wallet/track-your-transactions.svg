@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="398px" height="398px" viewBox="0 0 398 398" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>Group 13</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <ellipse id="path-1" cx="157.703271" cy="146.875" rx="122.193925" ry="121.875"></ellipse>
+        <filter x="-57.3%" y="-41.0%" width="214.6%" height="214.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="40" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="40" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.951454937   0 0 0 0 0.951454937   0 0 0 0 0.951454937  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="GetCarbon-Main-Website-V2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="GetCarbon-Digital-wallets-(v2)" transform="translate(-139.000000, -1660.000000)">
+            <g id="Group-17-Copy-3" transform="translate(180.000000, 1672.000000)">
+                <g id="Group-13">
+                    <g id="Oval">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <ellipse stroke="#FBFBFF" stroke-width="30" stroke-linejoin="square" fill="#F6F5FA" fill-rule="evenodd" cx="157.703271" cy="146.875" rx="107.193925" ry="106.875"></ellipse>
+                    </g>
+                    <g id="Group-12">
+                        <g id="Group" transform="translate(157.912150, 50.000000)">
+                            <path d="M172.784279,0 C179.979945,5.06921226e-15 185.813184,5.83323915 185.813184,13.0289043 C185.813184,13.8294498 185.739401,14.6282917 185.592772,15.4152943 L180.624561,42.0812184 L180.624561,42.0812184 L86.9049021,42.0812184 L93.6759733,0 L172.784279,0 Z" id="Path-18" fill="#3F2E8C"></path>
+                            <path d="M150.227476,18.3941954 L120.483121,192.154311 L1.42287141,192.154311 L27.1094825,42.0986639 C29.1316062,30.2858532 35.2629426,20.0611872 43.884907,12.7897239 C52.5068714,5.51826062 63.6194636,1.2 75.6040989,1.2 L154.59366,1.2 L163.093492,1.2 C161.35596,2.05196021 159.734621,3.11263419 158.264437,4.35253626 C154.133729,7.83623129 151.196258,12.7347801 150.227476,18.3941954 Z" id="Rectangle" stroke="#18233D" stroke-width="2.4" fill="#FFFFFF"></path>
+                            <line x1="38.2883975" y1="86.4790191" x2="82.6796532" y2="86.4790191" id="Path-17" stroke="#18233D" stroke-width="2.4" stroke-linecap="round"></line>
+                            <line x1="38.2883975" y1="129.016967" x2="82.6796532" y2="129.016967" id="Path-17" stroke="#18233D" stroke-width="2.4" stroke-linecap="round"></line>
+                            <line x1="36.3599029" y1="94.2131915" x2="55.6448488" y2="94.2131915" id="Path-17" stroke="#18233D" stroke-width="2.4" stroke-linecap="round"></line>
+                            <line x1="65.2873218" y1="94.2131915" x2="84.5722676" y2="94.2131915" id="Path-17" stroke="#18233D" stroke-width="2.4" stroke-linecap="round"></line>
+                            <line x1="46.0023759" y1="30.406269" x2="128.963523" y2="30.406269" id="Path-17" stroke="#18233D" stroke-width="2.4" stroke-linecap="round"></line>
+                            <line x1="42.1453867" y1="45.8746138" x2="86.5366424" y2="45.8746138" id="Path-17" stroke="#18233D" stroke-width="2.4" stroke-linecap="round"></line>
+                            <line x1="40.2168921" y1="53.6087862" x2="59.501838" y2="53.6087862" id="Path-17" stroke="#18233D" stroke-width="2.4" stroke-linecap="round"></line>
+                            <line x1="69.1443109" y1="53.6087862" x2="88.4292568" y2="53.6087862" id="Path-17" stroke="#18233D" stroke-width="2.4" stroke-linecap="round"></line>
+                            <polygon id="Rectangle" fill="#0ACC94" points="108.253296 44.237319 127.538242 44.237319 124.001701 63.5727501 104.716755 63.5727501"></polygon>
+                            <polygon id="Rectangle" fill="#0ACC94" points="100.539317 84.8417242 119.824263 84.8417242 116.287723 104.177155 97.0027768 104.177155"></polygon>
+                            <polygon id="Rectangle" fill="#0ACC94" points="92.8253391 125.446129 112.110285 125.446129 108.573744 144.781561 89.2887985 144.781561"></polygon>
+                        </g>
+                        <g id="Group-2" transform="translate(12.532710, 197.500000)" stroke="#18233D" stroke-width="2.4">
+                            <path d="M120.523415,87.7429829 L1.39731911,87.7429829 L14.6230437,1.2 L133.74914,1.2 L120.523415,87.7429829 Z" id="Rectangle" fill="#FFFFFF"></path>
+                            <line x1="23.1419351" y1="47.3718061" x2="67.5331907" y2="47.3718061" id="Path-17" stroke-linecap="round"></line>
+                            <line x1="26.9989242" y1="28.036375" x2="109.960072" y2="28.036375" id="Path-17" stroke-linecap="round"></line>
+                            <line x1="25.0704296" y1="37.7040906" x2="50.1767394" y2="37.7040906" id="Path-17" stroke-linecap="round"></line>
+                            <line x1="21.2134405" y1="55.1059785" x2="40.4983863" y2="55.1059785" id="Path-17" stroke-linecap="round"></line>
+                            <line x1="59.7833322" y1="55.1059785" x2="79.0682781" y2="55.1059785" id="Path-17" stroke-linecap="round"></line>
+                        </g>
+                        <g id="Group-2" stroke="#18233D" stroke-width="2.4">
+                            <path d="M120.523415,87.7429829 L1.39731911,87.7429829 L14.6230437,1.2 L133.74914,1.2 L120.523415,87.7429829 Z" id="Rectangle" fill="#FFFFFF"></path>
+                            <line x1="23.1419351" y1="47.3718061" x2="67.5331907" y2="47.3718061" id="Path-17" stroke-linecap="round"></line>
+                            <line x1="26.9989242" y1="28.036375" x2="109.960072" y2="28.036375" id="Path-17" stroke-linecap="round"></line>
+                            <line x1="25.0704296" y1="37.7040906" x2="50.1767394" y2="37.7040906" id="Path-17" stroke-linecap="round"></line>
+                            <line x1="21.2134405" y1="55.1059785" x2="40.4983863" y2="55.1059785" id="Path-17" stroke-linecap="round"></line>
+                            <line x1="59.7833322" y1="55.1059785" x2="79.0682781" y2="55.1059785" id="Path-17" stroke-linecap="round"></line>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

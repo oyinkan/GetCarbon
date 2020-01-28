@@ -25,12 +25,11 @@
         }
 
         ul.navbar-nav {
-            padding: 10px 10px 15px 10px;
-            margin-left: auto;
+            padding: 10px 10px 15px 10px;            
 
             .nav-link {
                 @include textstyle($default-font-size, normal, normal, 1.5, $color-primary);
-                padding: 0 3.5rem;
+                padding: 0 4.5rem;
 
                 &:hover {
                     color: #400d85;
@@ -64,8 +63,20 @@
                     }
                 }
             }
+
             .dropdown-item {
                 @include textstyle($default-font-size, normal, normal, 1.5, $color-primary);
+            }
+        }
+
+        ul.navbar-nav.second-nav {
+            .nav-link {
+                padding-top: 1.2rem;
+            } 
+            .btn.btn-info.btn-login:link, 
+            .btn.btn-info.btn-login:visited {
+                padding-top: 0.9rem;
+                margin-right: 1rem;
             }
         }
     }

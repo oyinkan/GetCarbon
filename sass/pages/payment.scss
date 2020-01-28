@@ -1,0 +1,31 @@
+#payment {
+	.header { 
+        background: #fefaf6;
+        padding-bottom: 2rem;
+
+        &__box {
+        	padding-top: 0;
+
+        	p {
+				width: 84%;
+			}
+        }
+    }
+
+    .section-transfer {
+    	padding-top: 5rem;
+    }
+
+    .section-recharge {
+    	background: url(./../images/payment/recharge-airtime-bg.svg);
+    	background-size: cover;
+
+    	&__rwrapper {
+    		margin-top: 14rem;
+
+    		p {
+    			width: 90%;
+    		}
+    	}
+    }
+}

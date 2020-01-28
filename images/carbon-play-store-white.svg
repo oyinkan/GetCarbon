@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="197" height="65" viewBox="0 0 197 65">
+    <g fill="none" fill-rule="evenodd">
+        <rect width="196.128" height="64.224" fill="#FFF" fill-rule="nonzero" rx="8.781"/>
+        <g fill="#3B2F85" font-family="Helvetica" font-size="24.48">
+            <text transform="translate(69.843 23.04)">
+                <tspan x="0" y="24">P</tspan>
+            </text>
+            <text transform="translate(69.843 23.04)">
+                <tspan x="14.27" y="24">l</tspan>
+            </text>
+            <text transform="translate(69.843 23.04)">
+                <tspan x="19.607" y="24">a</tspan>
+            </text>
+            <text transform="translate(69.843 23.04)">
+                <tspan x="32.167" y="24">y</tspan>
+            </text>
+            <text transform="translate(69.843 23.04)">
+                <tspan x="49.694" y="24">S</tspan>
+            </text>
+            <text transform="translate(69.843 23.04)">
+                <tspan x="64.688" y="24">t</tspan>
+            </text>
+            <text transform="translate(69.843 23.04)">
+                <tspan x="72.02" y="24">o</tspan>
+            </text>
+            <text transform="translate(69.843 23.04)">
+                <tspan x="85.68" y="24">r</tspan>
+            </text>
+            <text transform="translate(69.843 23.04)">
+                <tspan x="94.369" y="24">e</tspan>
+            </text>
+        </g>
+        <g fill="#3B2F85" font-family="ProductSans-Regular, Product Sans" font-size="14.4">
+            <text transform="translate(71.052 8.628)">
+                <tspan x="0" y="14">G</tspan>
+            </text>
+            <text transform="translate(71.052 8.628)">
+                <tspan x="11.462" y="14">e</tspan>
+            </text>
+            <text transform="translate(71.052 8.628)">
+                <tspan x="18.965" y="14">t</tspan>
+            </text>
+            <text transform="translate(71.052 8.628)">
+                <tspan x="27.23" y="14">i</tspan>
+            </text>
+            <text transform="translate(71.052 8.628)">
+                <tspan x="30.326" y="14">t</tspan>
+            </text>
+            <text transform="translate(71.052 8.628)">
+                <tspan x="38.592" y="14">o</tspan>
+            </text>
+            <text transform="translate(71.052 8.628)">
+                <tspan x="46.512" y="14">n</tspan>
+            </text>
+        </g>
+        <path fill="#3B2F85" fill-rule="nonzero" d="M39.53 31.06L20.999 12.529a4.415 4.415 0 0 0-.222 1.524v34.015c-.033.79.243 1.564.77 2.154l17.985-19.16zM54.64 29.137l-6.544-3.741-5.993 5.933 5.87 5.87 6.666-3.598c2.155-1.233 2.155-3.234 0-4.464zM22.314 50.907c.642.161 1.411.023 2.304-.377L46.44 37.976l-5.504-5.504-18.622 18.435zM46.08 24.088l-21.456-12.19c-.919-.51-1.702-.614-2.353-.401l18.374 18.374 5.435-5.783zM21.54 50.23l.005-.006z"/>
+    </g>
+</svg>

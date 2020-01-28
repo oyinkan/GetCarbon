@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="191" height="63" viewBox="0 0 191 63">
+    <defs>
+        <linearGradient id="a" x1="60.665%" x2="25.768%" y1="5.506%" y2="72.738%">
+            <stop offset="0%" stop-color="#00A0FF"/>
+            <stop offset="1%" stop-color="#00A1FF"/>
+            <stop offset="26%" stop-color="#00BEFF"/>
+            <stop offset="51%" stop-color="#00D2FF"/>
+            <stop offset="76%" stop-color="#00DFFF"/>
+            <stop offset="100%" stop-color="#00E3FF"/>
+        </linearGradient>
+        <linearGradient id="b" x1="105.905%" x2="-132.38%" y1="52.283%" y2="52.283%">
+            <stop offset="0%" stop-color="#FFE000"/>
+            <stop offset="41%" stop-color="#FFBD00"/>
+            <stop offset="78%" stop-color="#FFA500"/>
+            <stop offset="100%" stop-color="#FF9C00"/>
+        </linearGradient>
+        <linearGradient id="c" x1="85.268%" x2="-51.064%" y1="31.592%" y2="136.813%">
+            <stop offset="0%" stop-color="#FF3A44"/>
+            <stop offset="100%" stop-color="#C31162"/>
+        </linearGradient>
+        <linearGradient id="d" x1="-19.764%" x2="41.035%" y1="-10.713%" y2="36.153%">
+            <stop offset="0%" stop-color="#32A071"/>
+            <stop offset="7%" stop-color="#2DA771"/>
+            <stop offset="48%" stop-color="#15CF74"/>
+            <stop offset="80%" stop-color="#06E775"/>
+            <stop offset="100%" stop-color="#00F076"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <rect width="190.68" height="62.44" fill="#3B2F85" fill-rule="nonzero" rx="8.537"/>
+        <g fill="#FFF" font-family="Helvetica" font-size="23.8">
+            <text transform="translate(67.903 22.4)">
+                <tspan x="0" y="23">P</tspan>
+            </text>
+            <text transform="translate(67.903 22.4)">
+                <tspan x="13.874" y="23">l</tspan>
+            </text>
+            <text transform="translate(67.903 22.4)">
+                <tspan x="19.062" y="23">a</tspan>
+            </text>
+            <text transform="translate(67.903 22.4)">
+                <tspan x="31.273" y="23">y</tspan>
+            </text>
+            <text transform="translate(67.903 22.4)">
+                <tspan x="48.314" y="23">S</tspan>
+            </text>
+            <text transform="translate(67.903 22.4)">
+                <tspan x="62.821" y="23">t</tspan>
+            </text>
+            <text transform="translate(67.903 22.4)">
+                <tspan x="70.02" y="23">o</tspan>
+            </text>
+            <text transform="translate(67.903 22.4)">
+                <tspan x="83.3" y="23">r</tspan>
+            </text>
+            <text transform="translate(67.903 22.4)">
+                <tspan x="91.748" y="23">e</tspan>
+            </text>
+        </g>
+        <g fill="#FFF" font-family="ProductSans-Regular, Product Sans" font-size="14">
+            <text transform="translate(69.079 8.389)">
+                <tspan x="0" y="13">G</tspan>
+            </text>
+            <text transform="translate(69.079 8.389)">
+                <tspan x="11.144" y="13">e</tspan>
+            </text>
+            <text transform="translate(69.079 8.389)">
+                <tspan x="18.438" y="13">t</tspan>
+            </text>
+            <text transform="translate(69.079 8.389)">
+                <tspan x="26.474" y="13">i</tspan>
+            </text>
+            <text transform="translate(69.079 8.389)">
+                <tspan x="29.484" y="13">t</tspan>
+            </text>
+            <text transform="translate(69.079 8.389)">
+                <tspan x="37.52" y="13">o</tspan>
+            </text>
+            <text transform="translate(69.079 8.389)">
+                <tspan x="45.22" y="13">n</tspan>
+            </text>
+        </g>
+        <path fill="url(#a)" fill-rule="nonzero" d="M20.798 11.57c-.448.448-.599 1.195-.599 2.094v33.07c-.032.77.236 1.52.748 2.095l.151.149 18.556-18.556v-.297L20.798 11.57z"/>
+        <path fill="url(#b)" fill-rule="nonzero" d="M45.64 36.708l-6.138-6.135v-.448l6.138-6.137.148.15 7.334 4.2c2.094 1.2 2.094 3.142 0 4.34l-7.482 4.03z"/>
+        <path fill="url(#c)" fill-rule="nonzero" d="M45.788 36.56l-6.286-6.286-18.704 18.704c.748.75 1.795.75 3.142.15L45.78 36.56"/>
+        <path fill="url(#d)" fill-rule="nonzero" d="M45.788 23.988L23.948 11.57c-1.346-.75-2.394-.6-3.141.148L39.51 30.274l6.286-6.286h-.009z"/>
+    </g>
+</svg>

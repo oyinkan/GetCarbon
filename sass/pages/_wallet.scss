@@ -1,6 +1,7 @@
 .wallet {
     .header {
         background-image: radial-gradient(circle at 62% 37%, #ffffff, #ffffff 39%, #f6f5fa 83%);
+        background: #faf7fe;
         padding-bottom: 0;
     }
 
@@ -9,12 +10,20 @@
     }
 
     .section-walletdetails {
-        background-color: #f4f4f5;
         padding: 8rem 0;
 
         &__wrapper {
-            border-radius: 8px;
-            background-color: rgba(255, 255, 255, 0.6);
+            .wallet-card {
+                h6 {
+                    @include textstyle(2.24rem, bold, normal, 1.36, $color-primary);
+                }
+
+                p {
+                    @include textstyle($default-font-size, normal, normal, 1.5, $color-primary);
+                    width: 67.5%;
+                    margin-top: 3rem;
+                }
+            }
         } 
     }
 }

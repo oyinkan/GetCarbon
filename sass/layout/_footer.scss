@@ -7,6 +7,10 @@
         .container-fluid {
             width: 94%;
 
+            h3 {
+                font-weight: 500;
+            }
+
             img {
                 height: 45px;
             }
@@ -22,23 +26,22 @@
         }
 
         h6 {
-            @include textstyle($default-font-size, 800, -0.4px, 1.38, $color-white);
+            @include textstyle($default-font-size, 600, -0.4px, 1.38, $color-white);
         }
 
         p {
             a {
-                -webkit-text-stroke: 1px #979797;
-                @include textstyle($default-font-size, normal, -0.2px, 1.63, rgba(255, 255, 255, 0.66));
+                @include textstyle(1.4rem, normal, -0.2px, 1.63, rgba(255, 255, 255, 0.66));
             }
         }
 
         hr {
             background-color: rgba(255, 255, 255, 0.66);  
-            margin-top: 4rem;
+            margin-top: 9rem;
         }
 
-        .newsletter {
-            @include textstyle($paragraph-size, normal, -0.3px, 1.44, #3e4462);
+        .powered {
+            @include textstyle(1.2rem, normal, normal, 1.67, rgba(255, 255, 255, 0.8));
         }
 
 
@@ -48,10 +51,6 @@
             background-color: #eff2f6;
             height: auto;
             padding-bottom: 6px;
-        }
-
-        .d-flex {
-            margin-top: -12px;
         }
     }
 }
