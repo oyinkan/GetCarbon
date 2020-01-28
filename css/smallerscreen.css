@@ -261,3 +261,9 @@
         display: none;
     }
 } 
+
+@media screen and (min-width: 770px) and (max-width: 990px) {
+    .testimonial-box .d-flex {
+        display: block!important;
+    }
+}
