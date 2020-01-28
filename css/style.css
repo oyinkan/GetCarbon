@@ -30,7 +30,7 @@ html {
   font-family: "Graphik-Regular";
   src: url("webfont/Graphik-Regular.eot");
   src: url("webfont/Graphik-Regular.woff") format("woff"), url("webfont/Graphik-Regular.ttf") format("opentype"), url("webfont/Graphik-Regular.svg") format("svg"); }
-#body {
+body {
   font-family: Graphik-Regular !important; }
 
 * {
@@ -252,14 +252,13 @@ a:hover {
   margin-top: 8rem; }
 
 .space {
-  margin-top: 4rem;
-  margin-bottom: 10rem; }
+  margin-top: 4rem; }
 
 .padding-bottom-70 {
   padding-bottom: 7rem; }
 
-.margin-top-120 {
-  margin-top: 12rem; }
+.margin-top-100 {
+  margin-top: 10rem; }
 
 .margin-top-60 {
   margin-top: 6rem; }
@@ -471,6 +470,8 @@ a:hover {
           font-weight: 600; }
         .header .navbar ul.navbar-nav .nav-link .Products {
           font-family: ArialUnicodeMS; }
+      .header .navbar ul.navbar-nav .dropdown-item.active, .header .navbar ul.navbar-nav .dropdown-item:active {
+        color: #fff; }
       .header .navbar ul.navbar-nav .nav-link.active {
         color: #400d85;
         font-weight: 600; }
@@ -795,11 +796,7 @@ a:hover {
   background: #f6f3ff;
   padding-bottom: 0; }
   .investment .header__box {
-    position: relative;
     padding-top: 0; }
-    .investment .header__box .investment {
-      position: absolute;
-      bottom: 0; }
 .investment .section-steps {
   padding: 6rem 0; }
   .investment .section-steps__image {
@@ -828,16 +825,13 @@ a:hover {
       margin-top: 2.5rem; }
 .investment .section-investmentterms {
   background-color: #fff7f6;
-  padding: 6rem 0;
-  position: relative; }
-  .investment .section-investmentterms img {
-    position: absolute;
-    bottom: 0; }
+  padding: 6rem 0 0 0; }
 .investment .section-plan {
   padding: 4rem 0;
   padding-bottom: 2rem; }
 .investment .section-charges {
-  background-color: #e0f9ff; }
+  background-color: #e0f9ff;
+  padding-bottom: 6rem; }
   .investment .section-charges h6 {
     font-size: 2.2rem;
     font-weight: bold;

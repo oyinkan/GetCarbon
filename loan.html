@@ -57,7 +57,7 @@
 						<li class="nav-item">
 							<a class="nav-link" href="#">Blog</a>
 						</li>
-						<div class="d-flex">
+						<div>
 							<a class="btn btn-info btn-login" href="">Login</a>
 							<a class="btn btn-info btn-create" href="">Create Account</a>
 						</div>
@@ -70,7 +70,7 @@
 		</nav>
 		
 		<div class="container-fluid">
-			<div class="header__box">
+			<div class="header__box" style="padding-top: 2rem;">
 				<div class="row">
 					<div class="col-lg-6 col-md-6">
 						<div class="margin-top-30">
@@ -215,7 +215,9 @@
 
         <section class="section-payroll">
             <div class="container">
-                <div class="row">
+
+            	<!-- for larger screens -->
+                <div class="row sm-hidden">
                     <div class="col-lg-6 col-md-6">
                         <div>
                             <h1 class="section-payroll__heading-primary">Carbon Payroll Loan</h1>
@@ -225,6 +227,19 @@
 					</div>
 					<div class="col-lg-6 col-md-6">
 						<img src="images/loan/payroll-loan.svg" class="img-fluid" alt="Payroll loan">
+					</div>
+                </div>
+                <!-- for smaller screens -->
+                <div class="row md-hidden">
+                    <div class="col-12">
+                    	<div class="col-12">
+							<img src="images/loan/payroll-loan.svg" class="img-fluid" alt="Payroll loan">
+						</div>
+                        <div class="margin-top-20">
+                            <h1 class="section-payroll__heading-primary">Carbon Payroll Loan</h1>
+                            <p class="section-payroll__paragraph">Salaried employees at partner organizations can be pre-approved for loans of up to ₦400,000. Search for your company on our ‘preferred employer’ list to see if you automatically qualify for a Payroll loan.</p>
+                            <a class="anchor-link hvr-rotate" href="">Learn More &nbsp;<i class="fa fa-angle-right"></i></a>
+                        </div>
 					</div>
                 </div>
             </div>

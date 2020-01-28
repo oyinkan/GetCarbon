@@ -40,7 +40,10 @@
                     font-family: ArialUnicodeMS;
                 }
             }
-
+ 
+            .dropdown-item.active, .dropdown-item:active {
+                color: #fff;
+            }
             .nav-link.active {
                 color: #400d85;
                 font-weight: 600;

@@ -57,7 +57,7 @@
 						<li class="nav-item">
 							<a class="nav-link" href="#">Blog</a>
 						</li>
-						<div class="d-flex">
+						<div>
 							<a class="btn btn-info btn-login" href="">Login</a>
 							<a class="btn btn-info btn-create" href="">Create Account</a>
 						</div>
@@ -96,7 +96,7 @@
     <main>
         <section class="section-steps">
         	<div class="container-fluid">
-	            <div class="row">
+	            <div class="row sm-hidden">
 	                <div class="col-lg-6 col-md-6">
 						<img src="images/investment/howitworks.png" class="img-fluid" alt="Investment">
 					</div>
@@ -171,7 +171,9 @@
         </section>
         <section class="section-plan">
             <div class="container-fluid">
-                <div class="row">
+
+            	<!-- for larger screens -->
+                <div class="row sm-hidden">
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <div>
                             <img src="images/investment/multiple-plans.svg" class="img-fluid" alt="">
@@ -184,13 +186,28 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- for smaller screens -->
+                <div class="row md-hidden">
+                	<div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="space">
+                            <h2 class="heading-secondary">Setup multiple plans</h2>
+                            <p class="paragraph">You can setup up as many plans as you want towards different goals in the app, whether it’s a 3-month investment in your next holiday or a 12-month plan towards a house, Carbon offers the flexibility you need.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div>
+                            <img src="images/investment/multiple-plans.svg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
         <section class="section-investmentterms section-charges">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="col-lg-6 col-md-6">
                         <div>
                             <h2 class="heading-secondary">Zero fees / Hidden charges</h2>
                             <p class="paragraph">If you’re tired of charges for no reason, Carbon is your solution. There are no fees to set up or maintain an investment. We transparently display all current and potential earnings (as well as legal requirements like withholding tax) in your app, so what you see is exactly what you’ll get.</p>
@@ -200,7 +217,7 @@
                             <p class="paragraph"><i class="fa fa-check"></i>&nbsp; Account validation</p>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="col-lg-6 col-md-6">
                         <div>
                             <img src="images/investment/zerofees.svg" class="img-fluid" alt="Zero fees / Hidden charges">
                         </div>
