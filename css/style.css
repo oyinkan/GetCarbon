@@ -456,6 +456,8 @@ a:hover {
       font-size: 16px; }
     .header .navbar ul.navbar-nav {
       padding: 10px 10px 15px 10px; }
+      .header .navbar ul.navbar-nav .dropdown-menu {
+        border: 0 !important; }
       .header .navbar ul.navbar-nav .nav-link {
         font-stretch: normal;
         font-style: normal;
@@ -502,7 +504,8 @@ a:hover {
         font-weight: normal;
         letter-spacing: normal;
         line-height: 1.5;
-        color: #071a2d; }
+        color: #071a2d;
+        padding: 5px 30px; }
     .header .navbar ul.navbar-nav.second-nav .nav-link {
       padding-top: 1.2rem; }
     .header .navbar ul.navbar-nav.second-nav .btn.btn-info.btn-login:link,
@@ -510,7 +513,7 @@ a:hover {
       padding-top: 0.9rem;
       margin-right: 1rem; }
   .header__box {
-    padding-top: 5rem; }
+    padding-top: 15rem; }
   .header__access-box {
     display: inline;
     border-radius: 18.9px;
@@ -796,7 +799,7 @@ a:hover {
   background: #f6f3ff;
   padding-bottom: 0; }
   .investment .header__box {
-    padding-top: 0; }
+    padding-top: 8rem; }
 .investment .section-steps {
   padding: 6rem 0; }
   .investment .section-steps__image {
@@ -855,7 +858,7 @@ a:hover {
   background: #fefaf6;
   padding-bottom: 2rem; }
   #payment .header__box {
-    padding-top: 0; }
+    padding-top: 8rem; }
     #payment .header__box p {
       width: 84%; }
 #payment .section-transfer {

@@ -27,6 +27,9 @@
         ul.navbar-nav {
             padding: 10px 10px 15px 10px;            
 
+            .dropdown-menu {
+                border: 0!important;
+            }
             .nav-link {
                 @include textstyle($default-font-size, normal, normal, 1.5, $color-primary);
                 padding: 0 4.5rem;
@@ -69,6 +72,7 @@
 
             .dropdown-item {
                 @include textstyle($default-font-size, normal, normal, 1.5, $color-primary);
+                padding: 5px 30px;
             }
         }
 
@@ -85,7 +89,7 @@
     }
     
     &__box {
-        padding-top: 5rem;
+        padding-top: 15rem;
     }
 
     &__access-box {
