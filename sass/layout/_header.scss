@@ -93,11 +93,13 @@
     }
 
     &__access-box {
-        display: inline;
+        display: inline-block;
         border-radius: 18.9px;
         background-color: rgba($color-white, 0.96);
         padding: 5px 7px;
         padding-top: 4px;
+        height: 35px;
+        padding-top: 10px;
         @include textstyle(1.26rem, normal, normal, normal, #23303d);
 
         .badge.badge-primary {
@@ -115,11 +117,5 @@
     &__read-more {
         font-weight: 600;
         color: #3f2e8c;
-    }
-
-    .appstore-wrapper {
-        img {
-            height: 45px;
-        }
     }
 }

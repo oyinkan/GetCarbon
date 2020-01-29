@@ -32,6 +32,10 @@
         p {
             a {
                 @include textstyle(1.4rem, normal, -0.2px, 1.63, rgba(255, 255, 255, 0.66));
+
+                &:hover {
+                    color: #4300c2;
+                }
             }
         }
 

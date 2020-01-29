@@ -248,6 +248,9 @@
     .loan .section-image {
         margin-top: -20rem;
     }
+    .header .appstore-wrapper img {
+        height: 45px;
+    }
 }
 
 @media screen and (min-width: 1199px) and (max-width: 1320px) {
