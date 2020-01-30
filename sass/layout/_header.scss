@@ -25,10 +25,31 @@
         }
 
         ul.navbar-nav {
-            padding: 10px 10px 15px 10px;            
+            padding: 10px 10px 15px 10px;   
+            margin-top: 4px;         
 
             .dropdown-menu {
                 border: 0!important;
+            }
+            .dropdown-menu.dropdown-menu-lg {
+                min-width: 400px;
+                border-radius: .25rem;
+
+                a {
+                    padding: 2rem;
+
+                    h6 {
+                        font-size: 1.6rem;
+                        font-weight: 600;
+                    }
+                    p {
+                        font-size: 1.4rem;
+                    }
+                }
+            }
+            .dropdown-toggle.flag-toggle {
+                right: 3px;
+                box-shadow: 0 8px 16px 0 rgba(3,49,86,0.08);
             }
             .nav-link {
                 @include textstyle($default-font-size, normal, normal, 1.5, $color-primary);

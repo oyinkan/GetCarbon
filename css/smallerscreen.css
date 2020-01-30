@@ -94,6 +94,7 @@
     }
     .main .section-testimonial h4.text-center {
         width: auto;
+        padding: 0 2rem;
     }
     .loan .section-howitworks {
         padding-bottom: 15rem;
@@ -110,6 +111,14 @@
     }
     .sm-hidden {
         display: none;
+    }
+    .header__access-box {
+        height: auto;
+        padding-top: 8px;
+    }
+    .investment .header .d-flex,
+    .investment .section-investmentterms .d-flex {
+        display: block!important;
     }
 }
 
@@ -223,6 +232,12 @@
         padding: 0px 3rem;
     }
 }
+@media screen and (min-width: 991px) {
+    .investment .invest-wrapper,
+    .wallet .header .wallet-wrapper {
+        margin-left: 40px;
+    }
+}
 
 @media screen and (min-width: 770px) and (max-width: 1130px) { 
     .header.container-fluid {
@@ -239,7 +254,6 @@
         padding: 7px 20px;
     }
     .header .navbar ul.navbar-nav .nav-link {
-        padding: 0 10px; 
         font-size: 1.3rem;
     } 
     .loan .section-howitworks {
@@ -250,6 +264,12 @@
     }
     .header .appstore-wrapper img {
         height: 45px;
+    }
+    .heading-primary-white, 
+    .heading-primary, 
+    .heading-primary-variant, 
+    .loan .section-payroll__heading-primary {
+        font-size: 5.5rem;
     }
 }
 
@@ -268,5 +288,8 @@
 @media screen and (min-width: 770px) and (max-width: 990px) {
     .testimonial-box .d-flex {
         display: block!important;
+    }
+    .header .navbar ul.navbar-nav .nav-link {
+        padding: 0 10px; 
     }
 }

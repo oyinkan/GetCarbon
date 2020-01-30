@@ -455,9 +455,23 @@ a:hover {
       padding: 6px 10px 5px 10px;
       font-size: 16px; }
     .header .navbar ul.navbar-nav {
-      padding: 10px 10px 15px 10px; }
+      padding: 10px 10px 15px 10px;
+      margin-top: 4px; }
       .header .navbar ul.navbar-nav .dropdown-menu {
         border: 0 !important; }
+      .header .navbar ul.navbar-nav .dropdown-menu.dropdown-menu-lg {
+        min-width: 400px;
+        border-radius: .25rem; }
+        .header .navbar ul.navbar-nav .dropdown-menu.dropdown-menu-lg a {
+          padding: 2rem; }
+          .header .navbar ul.navbar-nav .dropdown-menu.dropdown-menu-lg a h6 {
+            font-size: 1.6rem;
+            font-weight: 600; }
+          .header .navbar ul.navbar-nav .dropdown-menu.dropdown-menu-lg a p {
+            font-size: 1.4rem; }
+      .header .navbar ul.navbar-nav .dropdown-toggle.flag-toggle {
+        right: 3px;
+        box-shadow: 0 8px 16px 0 rgba(3, 49, 86, 0.08); }
       .header .navbar ul.navbar-nav .nav-link {
         font-stretch: normal;
         font-style: normal;
@@ -681,6 +695,10 @@ a:hover {
   background-image: radial-gradient(circle at 62% 37%, #ffffff, #ffffff 39%, #f6f5fa 83%);
   background: #faf7fe;
   padding-bottom: 0; }
+  .wallet .header__box {
+    padding-top: 12rem; }
+    .wallet .header__box .wallet-wrapper {
+      margin-left: 20px; }
 .wallet .paragraph-wrapper {
   width: 75%; }
 .wallet .section-walletdetails {
@@ -743,8 +761,6 @@ a:hover {
 .loan .section-referral {
   background: #edfcff; }
   .loan .section-referral__wrapper {
-    width: 75%;
-    margin: auto;
     margin-top: 8rem; }
 .loan .section-payroll {
   padding: 5rem 0 4rem 0; }
@@ -794,8 +810,10 @@ a:hover {
 .investment .header {
   background: #f6f3ff;
   padding-bottom: 0; }
-  .investment .header__box {
-    padding-top: 10rem; }
+  .investment .header .header__box {
+    padding-top: 7rem; }
+.investment .invest-wrapper {
+  margin-left: 20px; }
 .investment .section-steps {
   padding: 6rem 0; }
   .investment .section-steps__image {
@@ -825,6 +843,8 @@ a:hover {
 .investment .section-investmentterms {
   background-color: #fff7f6;
   padding: 6rem 0 0 0; }
+  .investment .section-investmentterms .d-flex {
+    justify-content: space-between; }
 .investment .section-plan {
   padding: 4rem 0;
   padding-bottom: 2rem; }
@@ -864,7 +884,5 @@ a:hover {
   background-size: cover; }
   #payment .section-recharge__rwrapper {
     margin-top: 14rem; }
-    #payment .section-recharge__rwrapper p {
-      width: 90%; }
 
 /*# sourceMappingURL=style.css.map */

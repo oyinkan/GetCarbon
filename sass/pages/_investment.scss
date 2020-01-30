@@ -3,11 +3,15 @@
         background: #f6f3ff;
         padding-bottom: 0;
 
-        &__box {
-            padding-top: 10rem;
+        .header__box {
+            padding-top: 7rem;
         }
     }
 
+    .invest-wrapper {
+        margin-left: 20px;
+    }
+            
     .section-steps {
         padding: 6rem 0;
 
@@ -41,6 +45,10 @@
     .section-investmentterms {
         background-color: #fff7f6;
         padding: 6rem 0 0 0;
+
+        .d-flex {
+            justify-content: space-between;
+        }
     }
 
     .section-plan {
