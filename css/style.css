@@ -1,37 +1,11 @@
-@keyframes moveInLeft {
-  0% {
-    opacity: 0;
-    transform: translateX(-100px); }
-  80% {
-    transform: translateX(10px); }
-  100% {
-    opacity: 1;
-    transform: translate(0); } }
-@keyframes moveInRight {
-  0% {
-    opacity: 0;
-    transform: translateX(100px); }
-  80% {
-    transform: translateX(-10px); }
-  100% {
-    opacity: 1;
-    transform: translate(0); } }
-@keyframes moveInBottomUp {
-  0% {
-    opacity: 0;
-    transform: translateY(100px); }
-  100% {
-    opacity: 1;
-    transform: translate(0); } }
 html {
   font-size: 62.5%; }
 
 @font-face {
-  font-family: "Graphik-Regular";
-  src: url("webfont/Graphik-Regular.eot");
-  src: url("webfont/Graphik-Regular.woff") format("woff"), url("webfont/Graphik-Regular.ttf") format("opentype"), url("webfont/Graphik-Regular.svg") format("svg"); }
+  font-family: "proxima";
+  src: url(proxima/ProximaNova-Regular.otf); }
 body {
-  font-family: Graphik-Regular !important; }
+  font-family: proxima !important; }
 
 * {
   outline: none; }
@@ -301,7 +275,7 @@ a:hover {
 .btn.btn-info.btn-create:link, .btn.btn-info.btn-create:visited {
   background: transparent;
   border-radius: 6px;
-  border: solid 1px #26b7fa;
+  border: solid 1px #3b2f85;
   font-size: 16px;
   font-weight: 500;
   font-stretch: normal;
@@ -405,7 +379,7 @@ a:hover {
 .hexagon {
   width: 6rem;
   height: 3rem;
-  background-color: transparent;
+  background-color: #3f2e8c;
   position: relative;
   margin-top: 3.3rem;
   margin-right: 4rem; }
@@ -417,23 +391,12 @@ a:hover {
   .hexagon:before {
     top: -2.5rem;
     left: 0;
-    border-left: 3rem solid #3f2e8c;
-    border-right: 3rem solid #3f2e8c;
-    border-bottom: 2.5rem solid transparent; }
-  .hexagon:after {
-    bottom: -2.5rem;
-    left: 0;
-    border-left: 3rem solid #3f2e8c;
-    border-right: 3rem solid #3f2e8c;
-    border-top: 2.5rem solid transparent; }
-
-.hexagon.highlighted {
-  background-color: #3f2e8c; }
-  .hexagon.highlighted:before {
     border-left: 3rem solid transparent;
     border-right: 3rem solid transparent;
     border-bottom: 2.5rem solid #3f2e8c; }
-  .hexagon.highlighted:after {
+  .hexagon:after {
+    bottom: -2.5rem;
+    left: 0;
     border-left: 3rem solid transparent;
     border-right: 3rem solid transparent;
     border-top: 2.5rem solid #3f2e8c; }
@@ -448,8 +411,6 @@ a:hover {
     padding: 0; }
     .header .navbar .logo {
       max-height: 40px; }
-      .header .navbar .logo:hover {
-        animation: moveInLeft 1s ease-out; }
     .header .navbar .navbar-toggler {
       border: 1px solid #400d85;
       padding: 6px 10px 5px 10px;
@@ -486,6 +447,12 @@ a:hover {
           font-weight: 600; }
         .header .navbar ul.navbar-nav .nav-link .Products {
           font-family: ArialUnicodeMS; }
+      .header .navbar ul.navbar-nav .nav-link#navbardrop {
+        display: inline-block;
+        padding: 0;
+        padding-left: 4.5rem;
+        padding-top: 13px;
+        margin-left: auto; }
       .header .navbar ul.navbar-nav .dropdown-item.active, .header .navbar ul.navbar-nav .dropdown-item:active {
         color: #fff; }
       .header .navbar ul.navbar-nav .nav-link.active {
@@ -694,11 +661,7 @@ a:hover {
 .wallet .header {
   background-image: radial-gradient(circle at 62% 37%, #ffffff, #ffffff 39%, #f6f5fa 83%);
   background: #faf7fe;
-  padding-bottom: 0; }
-  .wallet .header__box {
-    padding-top: 12rem; }
-    .wallet .header__box .wallet-wrapper {
-      margin-left: 20px; }
+  padding-bottom: 8rem; }
 .wallet .paragraph-wrapper {
   width: 75%; }
 .wallet .section-walletdetails {
@@ -729,7 +692,7 @@ a:hover {
 
 .loan header {
   background: #fff;
-  padding-bottom: 0; }
+  padding-bottom: 6rem; }
 .loan .section-howitworks {
   background-image: linear-gradient(to right, #3d2e84 0%, #8e64db 100%);
   padding: 8rem 0;
@@ -789,15 +752,15 @@ a:hover {
   .loan .section-additionalinfo__infohead {
     font-stretch: normal;
     font-style: normal;
-    font-size: 2.2rem;
-    font-weight: bold;
+    font-size: 2rem;
+    font-weight: normal;
     letter-spacing: -0.55px;
     line-height: 1.36;
     color: #071a2d; }
   .loan .section-additionalinfo__infoparagraph {
     font-stretch: normal;
     font-style: normal;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: normal;
     letter-spacing: -0.2px;
     line-height: 1.44;
@@ -809,11 +772,7 @@ a:hover {
 
 .investment .header {
   background: #f6f3ff;
-  padding-bottom: 0; }
-  .investment .header .header__box {
-    padding-top: 7rem; }
-.investment .invest-wrapper {
-  margin-left: 20px; }
+  padding-bottom: 8rem; }
 .investment .section-steps {
   padding: 6rem 0; }
   .investment .section-steps__image {
@@ -871,12 +830,9 @@ a:hover {
   width: 91%; }
 
 #payment .header {
-  background: #fefaf6;
-  padding-bottom: 2rem; }
-  #payment .header__box {
-    padding-top: 8rem; }
-    #payment .header__box p {
-      width: 84%; }
+  background: #fefaf6; }
+  #payment .header__box p {
+    width: 84%; }
 #payment .section-transfer {
   padding-top: 5rem; }
 #payment .section-recharge {

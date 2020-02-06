@@ -1,10 +1,7 @@
 #payment .header {
-  background: #fefaf6;
-  padding-bottom: 2rem; }
-  #payment .header__box {
-    padding-top: 8rem; }
-    #payment .header__box p {
-      width: 84%; }
+  background: #fefaf6; }
+  #payment .header__box p {
+    width: 84%; }
 #payment .section-transfer {
   padding-top: 5rem; }
 #payment .section-recharge {

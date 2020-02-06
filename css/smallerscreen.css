@@ -232,12 +232,6 @@
         padding: 0px 3rem;
     }
 }
-@media screen and (min-width: 991px) {
-    .investment .invest-wrapper,
-    .wallet .header .wallet-wrapper {
-        margin-left: 40px;
-    }
-}
 
 @media screen and (min-width: 770px) and (max-width: 1130px) { 
     .header.container-fluid {

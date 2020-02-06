@@ -1,7 +1,7 @@
 .loan {
     header { 
         background: $color-white;
-        padding-bottom: 0;
+        padding-bottom: 6rem;
     }
 
     .section-howitworks {
@@ -74,11 +74,11 @@
         padding: 4rem 0;
 
         &__infohead {
-            @include textstyle(2.2rem, bold, -0.55px, 1.36, $color-primary);
+            @include textstyle(2rem, normal, -0.55px, 1.36, $color-primary);
         }
 
         &__infoparagraph {
-            @include textstyle($paragraph-size, normal, -0.2px, 1.44, rgba(7, 26, 45, 0.8));
+            @include textstyle(1.6rem, normal, -0.2px, 1.44, rgba(7, 26, 45, 0.8));
         }
     }
 

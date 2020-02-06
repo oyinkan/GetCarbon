@@ -2,15 +2,7 @@
     .header {
         background-image: radial-gradient(circle at 62% 37%, #ffffff, #ffffff 39%, #f6f5fa 83%);
         background: #faf7fe;
-        padding-bottom: 0;
-
-        &__box {
-            padding-top: 12rem;
-
-            .wallet-wrapper {
-                margin-left: 20px;
-            }
-        }
+        padding-bottom: 8rem;
     }
 
     .paragraph-wrapper {

@@ -12,10 +12,6 @@
    
         .logo{
             max-height: 40px;
-
-            &:hover {
-                animation: moveInLeft 1s ease-out;
-            }
         }
 
         .navbar-toggler {
@@ -63,6 +59,13 @@
                 .Products {
                     font-family: ArialUnicodeMS;
                 }
+            }
+            .nav-link#navbardrop {
+                display: inline-block;
+                padding: 0;
+                padding-left: 4.5rem;
+                padding-top: 13px;
+                margin-left: auto;
             }
  
             .dropdown-item.active, .dropdown-item:active {
