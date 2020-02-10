@@ -99,6 +99,9 @@
     .loan .section-howitworks {
         padding-bottom: 15rem;
     }
+    .loan .section-howitworks .arrow {
+        display: none;
+    }
     .loan .section-image {
         margin-bottom: 0;
         margin-top: -10rem;
@@ -119,6 +122,11 @@
     .investment .header .d-flex,
     .investment .section-investmentterms .d-flex {
         display: block!important;
+    }
+    .header .navbar ul.navbar-nav .dropdown-menu.dropdown-menu-lg {
+        min-width: auto;
+        max-height: 30rem;
+        overflow-y: auto;
     }
 }
 
@@ -192,9 +200,6 @@
     .footer .footer__bottom .form-inline .btn.btn-info.btn-subscribe {
         margin-left: 0; 
     } 
-    .header .d-flex {
-        display: block!important;
-    }
 }
 
 @media screen and (max-width: 600px) {

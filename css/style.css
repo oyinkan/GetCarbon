@@ -665,7 +665,7 @@ a:hover {
 .wallet .paragraph-wrapper {
   width: 75%; }
 .wallet .section-walletdetails {
-  padding: 8rem 0; }
+  padding: 4rem 0; }
   .wallet .section-walletdetails__wrapper .wallet-card h6 {
     font-stretch: normal;
     font-style: normal;
@@ -686,7 +686,7 @@ a:hover {
     margin-top: 3rem; }
 
 .section-terms {
-  padding: 5rem 0; }
+  padding: 4rem 0; }
   .section-terms .container-fluid {
     width: 70%; }
 
@@ -722,11 +722,12 @@ a:hover {
     color: #071a2d;
     width: 74%; }
 .loan .section-referral {
-  background: #edfcff; }
+  background: #edfcff;
+  padding: 4rem 0; }
   .loan .section-referral__wrapper {
     margin-top: 8rem; }
 .loan .section-payroll {
-  padding: 5rem 0 4rem 0; }
+  padding: 4rem 0; }
   .loan .section-payroll__heading-primary {
     font-stretch: normal;
     font-style: normal;
@@ -774,7 +775,7 @@ a:hover {
   background: #f6f3ff;
   padding-bottom: 8rem; }
 .investment .section-steps {
-  padding: 6rem 0; }
+  padding: 4rem 0; }
   .investment .section-steps__image {
     background: url(../images/investment.png);
     background-size: cover;
@@ -801,15 +802,14 @@ a:hover {
       margin-top: 2.5rem; }
 .investment .section-investmentterms {
   background-color: #fff7f6;
-  padding: 6rem 0 0 0; }
+  padding: 4rem 0; }
   .investment .section-investmentterms .d-flex {
     justify-content: space-between; }
 .investment .section-plan {
   padding: 4rem 0;
   padding-bottom: 2rem; }
 .investment .section-charges {
-  background-color: #e0f9ff;
-  padding-bottom: 6rem; }
+  background-color: #e0f9ff; }
   .investment .section-charges h6 {
     font-size: 2.2rem;
     font-weight: bold;
@@ -834,7 +834,7 @@ a:hover {
   #payment .header__box p {
     width: 84%; }
 #payment .section-transfer {
-  padding-top: 5rem; }
+  padding-top: 4rem; }
 #payment .section-recharge {
   background: url(./../images/payment/recharge-airtime-bg.svg);
   background-size: cover; }

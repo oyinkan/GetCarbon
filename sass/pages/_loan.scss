@@ -46,6 +46,7 @@
 
     .section-referral {
         background: #edfcff;
+        padding: 4rem 0;
 
         &__wrapper {
             margin-top: 8rem;
@@ -53,7 +54,7 @@
     }
 
     .section-payroll {
-        padding: 5rem 0 4rem 0;
+        padding: 4rem 0;
 
         &__heading-primary {
             @include textstyle(5.6rem, bold, -2.4px, 1.11, $color-primary);
