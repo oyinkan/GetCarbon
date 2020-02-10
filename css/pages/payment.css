@@ -6,8 +6,9 @@
   padding-top: 4rem; }
 #payment .section-recharge {
   background: url(./../images/payment/recharge-airtime-bg.svg);
-  background-size: cover; }
+  background-size: cover;
+  padding-top: 4rem; }
   #payment .section-recharge__rwrapper {
-    margin-top: 14rem; }
+    margin-top: 8rem; }
 
 /*# sourceMappingURL=payment.css.map */

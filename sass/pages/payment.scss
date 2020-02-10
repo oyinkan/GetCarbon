@@ -16,9 +16,10 @@
     .section-recharge {
     	background: url(./../images/payment/recharge-airtime-bg.svg);
     	background-size: cover;
+        padding-top: 4rem;
 
     	&__rwrapper {
-    		margin-top: 14rem;
+    		margin-top: 8rem;
     	}
     }
 }
