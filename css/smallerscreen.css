@@ -128,6 +128,13 @@
         max-height: 30rem;
         overflow-y: auto;
     }
+    .investment .section-steps__wrapper .relative p.paragraph-white {
+        width: 91%;
+        top: 1rem;
+    }
+    .image-width {
+        width: auto;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -183,8 +190,12 @@
     .main .section-investment .section-payment p.paragraph,
     .wallet .paragraph-wrapper,
     #payment .header__box p,
-    .investment p {
+    .investment p,
+    .image-width {
         width: auto;
+    }
+    .investment .section-steps__wrapper .relative p.paragraph-white {
+        width: 91%;
     }
     .loan .section-referral__wrapper {
         width: auto;

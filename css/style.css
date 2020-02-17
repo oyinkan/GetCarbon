@@ -775,13 +775,21 @@ a:hover {
   background-position: center; }
 .investment .section-steps__wrapper {
   padding: 0 3rem; }
-  .investment .section-steps__wrapper .line {
-    width: 2px;
-    height: 70px;
-    border: solid 1px #3f2e8c;
-    margin-left: 2.9rem;
-    margin-top: 5rem;
-    margin-bottom: 1rem; }
+  .investment .section-steps__wrapper .relative {
+    position: relative; }
+    .investment .section-steps__wrapper .relative p.paragraph-white {
+      color: #3f2e8c;
+      position: absolute;
+      top: 6px; }
+    .investment .section-steps__wrapper .relative p.paragraph-white.stepone {
+      color: #fff; }
+    .investment .section-steps__wrapper .relative .line {
+      width: 2px;
+      height: 70px;
+      border: solid 1px #3f2e8c;
+      margin-left: 1.7rem;
+      margin-top: 1.7rem;
+      margin-bottom: 1rem; }
   .investment .section-steps__wrapper h6 {
     font-stretch: normal;
     font-style: normal;
@@ -790,7 +798,8 @@ a:hover {
     letter-spacing: normal;
     line-height: normal;
     color: #071a2d;
-    margin-top: 2.5rem; }
+    margin-top: 0.5rem;
+    margin-left: 3rem; }
 .investment .section-investmentterms {
   background-color: #fff7f6; }
   .investment .section-investmentterms .d-flex {

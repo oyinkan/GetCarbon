@@ -20,18 +20,30 @@
         &__wrapper {
             padding: 0 3rem;
 
-            .line {
-                width: 2px;
-                height: 70px;
-                border: solid 1px #3f2e8c;
-                margin-left: 2.9rem;
-                margin-top: 5rem;
-                margin-bottom: 1rem;
-            }
+            .relative {
+                position: relative;
 
+                p.paragraph-white {
+                    color: #3f2e8c;
+                    position: absolute;
+                    top: 6px;
+                }
+                p.paragraph-white.stepone {
+                    color: #fff;
+                }
+                .line {
+                    width: 2px;
+                    height: 70px;
+                    border: solid 1px #3f2e8c;
+                    margin-left: 1.7rem;
+                    margin-top: 1.7rem;
+                    margin-bottom: 1rem;
+                }
+            }
             h6 {
                 @include textstyle($heading-four-size, 600, normal, normal, $color-primary);
-                margin-top: 2.5rem;
+                margin-top: 0.5rem;
+                margin-left: 3rem;
             }
         }
     }
