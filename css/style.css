@@ -579,27 +579,26 @@ a:hover {
     height: auto;
     padding-bottom: 6px; }
 
+.image-width {
+  width: 460px; }
+
+.main section {
+  padding: 4rem 0; }
 .main .section-wallet {
   border-radius: 20px;
   background-image: linear-gradient(358deg, #fcfcff 96%, #ffffff 39%);
-  padding: 50px 65px 60px 65px;
+  padding: 3rem 6rem;
   margin-top: -95px; }
   .main .section-wallet p.paragraph {
     width: 84%; }
-.main .section-loan {
-  padding-bottom: 6rem; }
-  .main .section-loan a {
-    margin-top: 1rem; }
+.main .section-loan a {
+  margin-top: 1rem; }
 .main .section-investment {
-  background-image: linear-gradient(to bottom, #fbfaff, #ffffff 43%);
-  padding: 3rem 0; }
+  background-image: linear-gradient(to bottom, #fbfaff, #ffffff 43%); }
   .main .section-investment a {
     margin-top: 1rem; }
-.main .section-report {
-  padding: 5rem 0; }
 .main .section-testimonial {
   background: #fafafa;
-  padding: 3rem 0;
   padding-bottom: 9rem; }
   .main .section-testimonial h4.text-center {
     width: 58%;
@@ -615,8 +614,7 @@ a:hover {
       background-color: #3b2f85; }
 .main .section-newsletter {
   background-image: url(./../images/newsletter.svg);
-  background-size: cover;
-  padding: 4rem 0; }
+  background-size: cover; }
   .main .section-newsletter .newsletter-wrapper {
     border-radius: 10px;
     box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.07);
@@ -648,7 +646,6 @@ a:hover {
         background-color: #eff2f6;
         border: 0; }
 .main .section-clients {
-  padding: 50px 0;
   text-align: center; }
   .main .section-clients h3 {
     font-weight: 500; }
@@ -664,26 +661,24 @@ a:hover {
   padding-bottom: 8rem; }
 .wallet .paragraph-wrapper {
   width: 75%; }
-.wallet .section-walletdetails {
-  padding: 4rem 0; }
-  .wallet .section-walletdetails__wrapper .wallet-card h6 {
-    font-stretch: normal;
-    font-style: normal;
-    font-size: 2.24rem;
-    font-weight: bold;
-    letter-spacing: normal;
-    line-height: 1.36;
-    color: #071a2d; }
-  .wallet .section-walletdetails__wrapper .wallet-card p {
-    font-stretch: normal;
-    font-style: normal;
-    font-size: 1.6rem;
-    font-weight: normal;
-    letter-spacing: normal;
-    line-height: 1.5;
-    color: #071a2d;
-    width: 67.5%;
-    margin-top: 3rem; }
+.wallet .section-walletdetails__wrapper .wallet-card h6 {
+  font-stretch: normal;
+  font-style: normal;
+  font-size: 2.24rem;
+  font-weight: bold;
+  letter-spacing: normal;
+  line-height: 1.36;
+  color: #071a2d; }
+.wallet .section-walletdetails__wrapper .wallet-card p {
+  font-stretch: normal;
+  font-style: normal;
+  font-size: 1.6rem;
+  font-weight: normal;
+  letter-spacing: normal;
+  line-height: 1.5;
+  color: #071a2d;
+  width: 67.5%;
+  margin-top: 3rem; }
 
 .section-terms {
   padding: 4rem 0; }
@@ -693,6 +688,8 @@ a:hover {
 .loan header {
   background: #fff;
   padding-bottom: 6rem; }
+.loan section {
+  padding: 4rem 0; }
 .loan .section-howitworks {
   background-image: linear-gradient(to right, #3d2e84 0%, #8e64db 100%);
   padding: 8rem 0;
@@ -708,48 +705,42 @@ a:hover {
 .loan .section-image {
   margin-top: -35rem;
   position: relative; }
-.loan .section-features {
-  padding: 4rem 0; }
-  .loan .section-features img {
-    margin-bottom: 1.5rem; }
-  .loan .section-features__paragraph {
-    font-stretch: normal;
-    font-style: normal;
-    font-size: 1.8rem;
-    font-weight: normal;
-    letter-spacing: -0.2px;
-    line-height: 1.44;
-    color: #071a2d;
-    width: 74%; }
+.loan .section-features img {
+  margin-bottom: 1.5rem; }
+.loan .section-features__paragraph {
+  font-stretch: normal;
+  font-style: normal;
+  font-size: 1.8rem;
+  font-weight: normal;
+  letter-spacing: -0.2px;
+  line-height: 1.44;
+  color: #071a2d;
+  width: 74%; }
 .loan .section-referral {
-  background: #edfcff;
-  padding: 4rem 0; }
+  background: #edfcff; }
   .loan .section-referral__wrapper {
     margin-top: 8rem; }
-.loan .section-payroll {
-  padding: 4rem 0; }
-  .loan .section-payroll__heading-primary {
-    font-stretch: normal;
-    font-style: normal;
-    font-size: 5.6rem;
-    font-weight: bold;
-    letter-spacing: -2.4px;
-    line-height: 1.11;
-    color: #071a2d; }
-  .loan .section-payroll__paragraph {
-    width: 65%;
-    font-stretch: normal;
-    font-style: normal;
-    font-size: 1.8rem;
-    font-weight: normal;
-    letter-spacing: -0.3px;
-    line-height: 1.44;
-    color: #071a2d; }
-  .loan .section-payroll a {
-    margin-top: 0; }
+.loan .section-payroll__heading-primary {
+  font-stretch: normal;
+  font-style: normal;
+  font-size: 5.6rem;
+  font-weight: bold;
+  letter-spacing: -2.4px;
+  line-height: 1.11;
+  color: #071a2d; }
+.loan .section-payroll__paragraph {
+  width: 65%;
+  font-stretch: normal;
+  font-style: normal;
+  font-size: 1.8rem;
+  font-weight: normal;
+  letter-spacing: -0.3px;
+  line-height: 1.44;
+  color: #071a2d; }
+.loan .section-payroll a {
+  margin-top: 0; }
 .loan .section-additionalinfo {
-  background: #f9f9f8;
-  padding: 4rem 0; }
+  background: #f9f9f8; }
   .loan .section-additionalinfo__infohead {
     font-stretch: normal;
     font-style: normal;
@@ -774,39 +765,37 @@ a:hover {
 .investment .header {
   background: #f6f3ff;
   padding-bottom: 8rem; }
-.investment .section-steps {
+.investment section {
   padding: 4rem 0; }
-  .investment .section-steps__image {
-    background: url(../images/investment.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%;
-    background-position: center; }
-  .investment .section-steps__wrapper {
-    padding: 0 3rem; }
-    .investment .section-steps__wrapper .line {
-      width: 2px;
-      height: 70px;
-      border: solid 1px #3f2e8c;
-      margin-left: 2.9rem;
-      margin-top: 5rem;
-      margin-bottom: 1rem; }
-    .investment .section-steps__wrapper h6 {
-      font-stretch: normal;
-      font-style: normal;
-      font-size: 2.4rem;
-      font-weight: 600;
-      letter-spacing: normal;
-      line-height: normal;
-      color: #071a2d;
-      margin-top: 2.5rem; }
+.investment .section-steps__image {
+  background: url(../images/investment.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center; }
+.investment .section-steps__wrapper {
+  padding: 0 3rem; }
+  .investment .section-steps__wrapper .line {
+    width: 2px;
+    height: 70px;
+    border: solid 1px #3f2e8c;
+    margin-left: 2.9rem;
+    margin-top: 5rem;
+    margin-bottom: 1rem; }
+  .investment .section-steps__wrapper h6 {
+    font-stretch: normal;
+    font-style: normal;
+    font-size: 2.4rem;
+    font-weight: 600;
+    letter-spacing: normal;
+    line-height: normal;
+    color: #071a2d;
+    margin-top: 2.5rem; }
 .investment .section-investmentterms {
-  background-color: #fff7f6;
-  padding: 4rem 0; }
+  background-color: #fff7f6; }
   .investment .section-investmentterms .d-flex {
     justify-content: space-between; }
 .investment .section-plan {
-  padding: 4rem 0;
   padding-bottom: 2rem; }
 .investment .section-charges {
   background-color: #e0f9ff; }
@@ -833,12 +822,9 @@ a:hover {
   background: #fefaf6; }
   #payment .header__box p {
     width: 84%; }
-#payment .section-transfer {
-  padding-top: 4rem; }
 #payment .section-recharge {
   background: url(./../images/payment/recharge-airtime-bg.svg);
-  background-size: cover;
-  padding-top: 4rem; }
+  background-size: cover; }
   #payment .section-recharge__rwrapper {
     margin-top: 8rem; }
 

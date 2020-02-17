@@ -3,9 +3,11 @@
         background: #f6f3ff;
         padding-bottom: 8rem;
     }
-            
-    .section-steps {
+    
+    section {
         padding: 4rem 0;
+    }        
+    .section-steps {
 
         &__image {
             background: url(../images/investment.png);
@@ -36,7 +38,6 @@
 
     .section-investmentterms {
         background-color: #fff7f6;
-        padding: 4rem 0;
 
         .d-flex {
             justify-content: space-between;
@@ -44,7 +45,6 @@
     }
 
     .section-plan {
-        padding: 4rem 0;
         padding-bottom: 2rem;
     }
 

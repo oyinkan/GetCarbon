@@ -4,6 +4,9 @@
         padding-bottom: 6rem;
     }
 
+    section {
+        padding: 4rem 0;
+    }
     .section-howitworks {
         background-image: linear-gradient(to right, #3d2e84 0%, #8e64db 100%);
         padding: 8rem 0;
@@ -32,8 +35,6 @@
     }
 
     .section-features {
-        padding: 4rem 0;
-
         img {
             margin-bottom: 1.5rem;
         }
@@ -46,7 +47,6 @@
 
     .section-referral {
         background: #edfcff;
-        padding: 4rem 0;
 
         &__wrapper {
             margin-top: 8rem;
@@ -54,8 +54,6 @@
     }
 
     .section-payroll {
-        padding: 4rem 0;
-
         &__heading-primary {
             @include textstyle(5.6rem, bold, -2.4px, 1.11, $color-primary);
         }
@@ -72,7 +70,6 @@
     
     .section-additionalinfo {
         background: #f9f9f8;
-        padding: 4rem 0;
 
         &__infohead {
             @include textstyle(2rem, normal, -0.55px, 1.36, $color-primary);

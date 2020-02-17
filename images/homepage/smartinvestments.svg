@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="530px" height="431px" viewBox="0 0 530 431" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Smart Investment</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="529.198121" height="430.143925"></rect>
+        <path d="M761.649632,0.386264301 L761.649632,686.391663 L0,686.391663 C218.621654,580.277538 383.175586,469.679718 493.661798,354.598202 C604.148011,239.516686 693.477288,121.44604 761.649632,0.386264301 Z" id="path-3"></path>
+        <linearGradient x1="50%" y1="72.154772%" x2="50%" y2="1.2220228%" id="linearGradient-5">
+            <stop stop-color="#F7F7F9" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#F2F2F5" stop-opacity="0.441202405" offset="65.9021326%"></stop>
+            <stop stop-color="#ECECF0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="GetCarbon-Main-Website-V2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="GetCarbon-Investment-(v2)" transform="translate(-834.000000, -181.000000)">
+            <g id="Group-49" transform="translate(1.000000, 103.000000)">
+                <g id="Headermast">
+                    <g id="Smart-Investment" transform="translate(833.000000, 78.000000)">
+                        <g id="Rectangle-Copy" transform="translate(0.000000, 0.421415)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Mask" fill="#FFFFFF" xlink:href="#path-1"></use>
+                            <g id="Path-19-Copy" mask="url(#mask-2)">
+                                <g transform="translate(-90.260427, -175.518498)">
+                                    <mask id="mask-4" fill="white">
+                                        <use xlink:href="#path-3"></use>
+                                    </mask>
+                                    <use id="Mask" stroke="none" fill="#3B2F85" fill-rule="evenodd" xlink:href="#path-3"></use>
+                                    <path d="M455.011468,463.903425 L455.011468,742.013722 L-306.638164,742.013722 C-88.0165099,698.994482 76.5374229,654.157528 187.023635,607.50286 C297.509847,560.848191 386.839125,512.981713 455.011468,463.903425 Z" id="Path-19-Copy" stroke="none" fill="#FFB1B1" fill-rule="evenodd" mask="url(#mask-4)"></path>
+                                    <path d="M418.042867,441.656676 C496.486223,404.035139 557.021169,366.853307 599.647704,330.111179 C642.274239,293.369052 674.465449,250.625171 696.221334,201.879537" id="Line" stroke="#FFB1B1" stroke-width="2.3716" fill="none" stroke-linecap="round" stroke-linejoin="bevel" stroke-dasharray="10.67220020294189" mask="url(#mask-4)" transform="translate(557.132100, 321.768106) rotate(-13.000000) translate(-557.132100, -321.768106) "></path>
+                                </g>
+                            </g>
+                            <path d="M364.751041,0 L519.711721,0 C524.950915,-9.62424334e-16 529.198121,4.24720595 529.198121,9.4864 L529.198121,420.657525 C529.198121,425.896719 524.950915,430.143925 519.711721,430.143925 L364.751041,430.143925 L364.751041,430.143925 L364.751041,0 Z" fill="url(#linearGradient-5)" opacity="0.537295387" mask="url(#mask-2)"></path>
+                        </g>
+                        <g id="Group-54" transform="translate(28.000000, 38.221415)">
+                            <ellipse id="Oval" fill="#FFB1B1" cx="7.44363529" cy="7.45057623" rx="7.44363529" ry="7.45057623"></ellipse>
+                            <text id="Fixed-Deposit" opacity="0.5" font-family="Graphik-Regular, Graphik" font-size="17.787" font-style="italic" font-weight="normal" letter-spacing="0.237159988" fill="#071A2D">
+                                <tspan x="29.7745412" y="15.4294659">Fixed Deposit</tspan>
+                            </text>
+                            <text id="N495,999" font-family="Graphik-Medium, Graphik" font-size="28.4592" font-weight="400" letter-spacing="0.218916914" fill="#071A2D">
+                                <tspan x="29.7745412" y="55.946547">N495,999</tspan>
+                            </text>
+                        </g>
+                        <g id="Group-54-Copy" transform="translate(28.000000, 153.021415)">
+                            <ellipse id="Oval" fill="#3B2F85" cx="7.42622222" cy="7.45057623" rx="7.42622222" ry="7.45057623"></ellipse>
+                            <text id="One-time-Investment" opacity="0.498372396" font-family="Graphik-Regular, Graphik" font-size="17.787" font-style="italic" font-weight="normal" letter-spacing="0.237159988" fill="#071A2D">
+                                <tspan x="29.7048889" y="15.4294659">One time Investment</tspan>
+                            </text>
+                            <text id="N50,000" font-family="Graphik-Medium, Graphik" font-size="28.4592" font-weight="400" letter-spacing="0.218916914" fill="#071A2D">
+                                <tspan x="29.7048889" y="55.946547">N50,000</tspan>
+                            </text>
+                        </g>
+                        <text id="Mon-4" opacity="0.498372396" font-family="Graphik-Regular, Graphik" font-size="17.787" font-style="italic" font-weight="normal" letter-spacing="0.237159988" fill="#071A2D">
+                            <tspan x="28" y="378.721415">Mon 4</tspan>
+                        </text>
+                        <text id="Fri-31" opacity="0.498372396" font-family="Graphik-Regular, Graphik" font-size="17.787" font-style="italic" font-weight="normal" letter-spacing="0.237159988" fill="#FFFFFF">
+                            <tspan x="411.6" y="378.721415">Fri 31</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
