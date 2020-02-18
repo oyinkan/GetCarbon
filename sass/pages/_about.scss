@@ -74,34 +74,30 @@ main {
 		background: url(./../images/about/consumer.svg);
 		background-size: cover;
 
-		.consumer-wrapper {
-			max-width: 1096px;
-			margin: auto;
 
-			h2 {
-				text-align: left;
-				width: 50%;
-				margin-bottom: 3rem;
-			}
+		h2 {
+			text-align: left;
+			width: 50%;
+			margin-bottom: 3rem;
+		}
 
-			.findout {
-			    width: 140px;
-			    height: 140px;
-			    border: solid 0.5px #9a8be5;
-			    background-color: #5e50aa;
-			    border-radius: 50%;
-				font-size: 16px;
-				font-weight: 500;
-				text-align: center;
-				color: $color-white;
-				padding-top: 5.5rem;
+		.findout {
+		    width: 140px;
+		    height: 140px;
+		    border: solid 0.5px #9a8be5;
+		    background-color: #5e50aa;
+		    border-radius: 50%;
+			font-size: 16px;
+			font-weight: 500;
+			text-align: center;
+			color: $color-white;
+			padding-top: 5.5rem;
 
-				&::after {
-					content: "";
-					width: 2px;
-					height: 3rem;
-					color: #697381;
-				}
+			&::after {
+				content: "";
+				width: 2px;
+				height: 3rem;
+				color: #697381;
 			}
 		}
 	}
@@ -132,6 +128,9 @@ main {
 			text-align: left;
 		}
 
+		.presskit {
+			width: 264px;
+		}
 		.contact-wrapper {
 			border-radius: 10px;
 			background-color: $color-white;
@@ -154,12 +153,10 @@ main {
 		background-size: contain;
 		background-position: right;
 		background-repeat: no-repeat;
+		margin-left: 7rem;
 
 		.timeline {
 		    position: relative;
-		    max-width: 1200px;
-		    margin: 0 auto;
-		    margin-left: 20rem;
 
 		    &::after {
 			    content: '';
@@ -167,7 +164,7 @@ main {
 			    width: 1px;
 			    background-color: #697381;
 			    top: 0;
-			    bottom: 0;
+			    bottom: 60px;
 			    left: 0;
 			    margin-left: 0.5px;
 			}
@@ -211,5 +208,10 @@ main {
 			    left: -18px;
 			}
 		}
+	}
+
+	.consumer-wrapper {
+		max-width: 80%;
+		margin: auto;
 	}
 }

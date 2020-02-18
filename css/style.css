@@ -672,29 +672,26 @@ main .section-team .team-wrapper {
 main .section-services {
   background: url(./../images/about/consumer.svg);
   background-size: cover; }
-  main .section-services .consumer-wrapper {
-    max-width: 1096px;
-    margin: auto; }
-    main .section-services .consumer-wrapper h2 {
-      text-align: left;
-      width: 50%;
-      margin-bottom: 3rem; }
-    main .section-services .consumer-wrapper .findout {
-      width: 140px;
-      height: 140px;
-      border: solid 0.5px #9a8be5;
-      background-color: #5e50aa;
-      border-radius: 50%;
-      font-size: 16px;
-      font-weight: 500;
-      text-align: center;
-      color: #fff;
-      padding-top: 5.5rem; }
-      main .section-services .consumer-wrapper .findout::after {
-        content: "";
-        width: 2px;
-        height: 3rem;
-        color: #697381; }
+  main .section-services h2 {
+    text-align: left;
+    width: 50%;
+    margin-bottom: 3rem; }
+  main .section-services .findout {
+    width: 140px;
+    height: 140px;
+    border: solid 0.5px #9a8be5;
+    background-color: #5e50aa;
+    border-radius: 50%;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    padding-top: 5.5rem; }
+    main .section-services .findout::after {
+      content: "";
+      width: 2px;
+      height: 3rem;
+      color: #697381; }
 main .section-review {
   background: url(./../images/about/yearinreview-background.svg);
   background-size: cover; }
@@ -713,6 +710,8 @@ main .section-presskit {
   z-index: 2; }
   main .section-presskit h3 {
     text-align: left; }
+  main .section-presskit .presskit {
+    width: 264px; }
   main .section-presskit .contact-wrapper {
     border-radius: 10px;
     background-color: #fff;
@@ -727,19 +726,17 @@ main .section-journey {
   background: url(./../images/about/integration.png);
   background-size: contain;
   background-position: right;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  margin-left: 7rem; }
   main .section-journey .timeline {
-    position: relative;
-    max-width: 1200px;
-    margin: 0 auto;
-    margin-left: 20rem; }
+    position: relative; }
     main .section-journey .timeline::after {
       content: '';
       position: absolute;
       width: 1px;
       background-color: #697381;
       top: 0;
-      bottom: 0;
+      bottom: 60px;
       left: 0;
       margin-left: 0.5px; }
     main .section-journey .timeline .wrapper {
@@ -770,6 +767,9 @@ main .section-journey {
           color: #697381; }
     main .section-journey .timeline .wrapper.right::after {
       left: -18px; }
+main .consumer-wrapper {
+  max-width: 80%;
+  margin: auto; }
 
 .faq-header {
   padding-bottom: 24rem; }

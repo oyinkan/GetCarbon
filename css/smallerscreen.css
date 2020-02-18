@@ -58,7 +58,8 @@
     .header .navbar ul.navbar-nav .nav-link {
         padding: 0; 
     }
-    .header .margin-top--50 {
+    .header .margin-top--50,
+    main .section-presskit .contact-wrapper {
         margin-top: 2rem; 
     }
     .footer .footer__bottom .d-flex {
@@ -150,7 +151,7 @@
     main .section-aboutus .aboutus .half .whoweare-image {
         height: 270px;
     }
-    main .section-journey .timeline {
+    main .section-journey {
         margin-left: 10rem;
     }
     main .section-services .consumer-wrapper .findout {
