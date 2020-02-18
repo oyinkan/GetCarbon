@@ -107,6 +107,9 @@ main {
 	}
 
 	.section-review {
+		background: url(./../images/about/yearinreview-background.svg);
+		background-size: cover;
+
 		h3 {
 			text-align: left;
 		}
@@ -122,6 +125,8 @@ main {
 
 	.section-presskit {
 		background-color: #f0f3f6;
+		position: relative;
+		z-index: 2;
 
 		h3 {
 			text-align: left;
@@ -140,6 +145,70 @@ main {
 				  	line-height: 0.83;
 				  	color: #120c0c;
 				}
+			}
+		}
+	}
+
+	.section-journey {
+		background: url(./../images/about/integration.png);
+		background-size: contain;
+		background-position: right;
+		background-repeat: no-repeat;
+
+		.timeline {
+		    position: relative;
+		    max-width: 1200px;
+		    margin: 0 auto;
+		    margin-left: 20rem;
+
+		    &::after {
+			    content: '';
+			    position: absolute;
+			    width: 1px;
+			    background-color: #697381;
+			    top: 0;
+			    bottom: 0;
+			    left: 0;
+			    margin-left: 0.5px;
+			}
+
+			.wrapper {
+			    padding: 10px 40px;
+			    position: relative;
+			    background-color: inherit;
+			    width: 50%;
+
+			 	&::after {
+				  content: '';
+				  position: absolute;
+				  background: url(./../images/about/steps.svg);
+				  width: 100%;
+				  height: 50px;
+				  background-repeat: no-repeat;
+				  right: -17px;
+				  top: 15px;
+				  z-index: 1;
+				}
+
+				.content {
+					padding-top: 8px;
+				    padding-bottom: 50px;
+
+				    h4 {
+						font-size: 24px;
+						line-height: 1.33;
+						color: #404855;
+					}
+					p {
+					  font-size: 18px;
+					  line-height: 1.44;
+					  color: #697381;
+					}
+				}
+			}
+
+			.wrapper.right::after {
+			    left: -18px;
 			}
 		}
 	}

@@ -136,14 +136,25 @@
         top: 1rem;
     }
     .image-width,
-    main .section-aboutus .d-flex .half {
+    main .section-aboutus .d-flex .half,
+    main .section-journey .timeline .wrapper {
         width: auto;
     }
     .main .section-faq {
-        padding: 5rem;
+        padding: 5rem 1rem;
+    }
+    .main .section-faq .accordion .card .card-head,
+    .main .section-faq .accordion .card .card-body {
+        padding: 2rem 1rem;
     }
     main .section-aboutus .aboutus .half .whoweare-image {
         height: 270px;
+    }
+    main .section-journey .timeline {
+        margin-left: 10rem;
+    }
+    main .section-services .consumer-wrapper .findout {
+        margin: 0 2rem;
     }
 }
 
@@ -238,6 +249,30 @@
     .wallet .section-walletdetails__wrapper .d-flex .wallet-card {
         width: 100%; 
     } 
+    .timeline::after {
+        left: 31px;
+    }
+      
+    .wrapper {
+      width: 100%;
+      padding-left: 70px;
+      padding-right: 25px;
+    }
+      
+    .wrapper::before {
+      left: 60px;
+      border: medium solid white;
+      border-width: 10px 10px 10px 0;
+      border-color: transparent white transparent transparent;
+    }
+
+    .right::after {
+      left: 15px;
+    }
+      
+    .right {
+      left: 0%;
+    }
 }
 
 @media screen and (max-width: 1100px) {
@@ -247,6 +282,9 @@
     .investment .section-steps h6 {
         width: 100%; 
     } 
+    main .section-journey {
+        background: #fff;
+    }
 }
 
 @media screen and (min-width: 1300px) {

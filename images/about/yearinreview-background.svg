@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="357px" viewBox="0 0 1440 357" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Rectangle 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1443.77698" height="357"></rect>
+    </defs>
+    <g id="GetCarbon-Main-Website-V2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="New-GetCarbon-About-us" transform="translate(0.000000, -4458.000000)">
+            <g id="Path-5-Copy" transform="translate(-4.000000, 4458.000000)">
+                <g id="Rectangle-5">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#ECE8F0" xlink:href="#path-1"></use>
+                    <path d="M172.52607,490.435043 L125.544373,253.110889 C125.544373,241.410706 133.58988,231.246283 144.97746,228.559781 L450.949496,156.376363 C464.521906,153.174426 478.297406,160.845939 482.722057,174.070354 L588.571966,490.435043 L588.571966,490.435043" id="Path-5" fill="#FFFFFF" opacity="0.239397321" mask="url(#mask-2)" transform="translate(357.058169, 323.043135) scale(-1, 1) translate(-357.058169, -323.043135) "></path>
+                    <path d="M-29.0183032,456.714022 L-76,230.579227 L-76,230.220246 C-76,219.307825 -68.4350167,209.853513 -57.7882779,207.460209 L253.115958,137.571375 C264.661927,134.975931 276.322038,141.436958 280.242747,152.602699 L387.027593,456.714022 L387.027593,456.714022" id="Path-5-Copy-2" fill="#FFFFFF" opacity="0.239397321" mask="url(#mask-2)" transform="translate(155.513796, 296.857011) scale(-1, 1) translate(-155.513796, -296.857011) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
