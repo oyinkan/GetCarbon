@@ -91,3 +91,8 @@
         top: 2px;
     }
 }
+
+.smaller-text {
+    @include textstyle(1.44rem, bold, 1.2px, 1.25, $color-primary);
+    text-transform: uppercase;
+}

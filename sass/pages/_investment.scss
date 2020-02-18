@@ -17,6 +17,10 @@
             background-position: center;
         }
 
+        .image-width.howitworks-image {
+            width: 380px;
+        }
+
         &__wrapper {
             padding: 0 3rem;
 
@@ -33,11 +37,11 @@
                 }
                 .line {
                     width: 2px;
-                    height: 70px;
+                    height: 50px;
                     border: solid 1px #3f2e8c;
                     margin-left: 1.7rem;
-                    margin-top: 1.7rem;
-                    margin-bottom: 1rem;
+                    margin-top: 1.5rem;
+                    margin-bottom: 0.5rem;
                 }
             }
             h6 {

@@ -1,0 +1,146 @@
+.header {
+	background: url(./../images/about/about-header.png);
+
+	.about-text {
+    	color: $color-white;
+    	width: 45%;
+    	margin: auto;
+	}
+}
+
+main {
+	.section-aboutus {
+		margin-top: -18rem;
+		padding: 0!important;
+
+		.aboutus {
+			border-radius: 4px;
+  			background-color: #ffeddf;
+	    	max-width: 1069px;
+	    	margin: auto;
+
+	    	.half {
+	    		width: 50%;
+	    		
+	    		.aboutus-wrapper {
+	    			padding: 3rem;
+
+		    		h3 {
+			    		@include textstyle(3.2rem, 500, -0.2px, normal, $color-primary);
+					}
+
+					p {
+						@include textstyle(2rem, normal, -0.2px, 1.9, $color-primary);
+					}
+				}
+
+				.whoweare-image {
+					background: url(./../images/about/whoweare.png);
+				    background-size: cover;
+				    max-width: 100%;
+				    height: 100%;
+				}
+	    	}
+		}
+	}
+	
+	.section-team {
+		.team-wrapper {
+			width: 70%;
+			margin: auto;
+			padding: 0 4rem;
+			color: #111111;
+
+			h2 {
+				margin-top: 1.5rem;
+			}
+
+			p {
+			  font-size: 2rem;
+			  font-weight: 600;
+			  color: #111111;
+			  margin-top: 1.4rem;
+			  margin-bottom: 0;
+			}
+
+			span {
+			    opacity: 0.5;
+			    font-size: 16px; 
+			}
+		}
+	}
+
+	.section-services {
+		background: url(./../images/about/consumer.svg);
+		background-size: cover;
+
+		.consumer-wrapper {
+			max-width: 1096px;
+			margin: auto;
+
+			h2 {
+				text-align: left;
+				width: 50%;
+				margin-bottom: 3rem;
+			}
+
+			.findout {
+			    width: 140px;
+			    height: 140px;
+			    border: solid 0.5px #9a8be5;
+			    background-color: #5e50aa;
+			    border-radius: 50%;
+				font-size: 16px;
+				font-weight: 500;
+				text-align: center;
+				color: $color-white;
+				padding-top: 5.5rem;
+
+				&::after {
+					content: "";
+					width: 2px;
+					height: 3rem;
+					color: #697381;
+				}
+			}
+		}
+	}
+
+	.section-review {
+		h3 {
+			text-align: left;
+		}
+		span {
+			font-size: 14px;
+			line-height: 1.57;
+			color: $color-primary;
+			display: inline-block;
+			width: 60%;
+			margin-bottom: 1.5rem;
+		}
+	}
+
+	.section-presskit {
+		background-color: #f0f3f6;
+
+		h3 {
+			text-align: left;
+		}
+
+		.contact-wrapper {
+			border-radius: 10px;
+			background-color: $color-white;
+			padding: 4rem 2.5rem;
+
+			p {
+			    font-size: 18px;
+			    color: #120c0c;
+
+				a {
+				  	line-height: 0.83;
+				  	color: #120c0c;
+				}
+			}
+		}
+	}
+}

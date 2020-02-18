@@ -15,6 +15,7 @@
         font-size: 5rem; 
     } 
     .heading-secondary,
+    .heading-secondary-white,
     .wallet-card h2  {
         font-size: 4rem; 
     }
@@ -69,9 +70,13 @@
     .investment .header__box .investment {
         position: relative; 
     }
-    .investment .section-steps .d-flex.full-size {
-        display: block !important; 
+    .investment .section-steps .d-flex.full-size,
+    main .section-aboutus .d-flex,
+    .investment .header .d-flex,
+    .investment .section-investmentterms .d-flex {
+        display: block!important;
     }
+
     .investment .section-steps .half-size, .investment .section-steps__wrapper {
         width: 100%;
         padding: 2rem; 
@@ -92,7 +97,9 @@
     .section-newsletter .newsletter-wrapper .btn.btn-info.btn-subscribe {
         margin-bottom: 1rem;
     }
-    .main .section-testimonial h4.text-center {
+    .main .section-testimonial h4.text-center,
+    .header .about-text,
+    main .section-services .consumer-wrapper h2 {
         width: auto;
         padding: 0 2rem;
     }
@@ -119,10 +126,6 @@
         height: auto;
         padding-top: 8px;
     }
-    .investment .header .d-flex,
-    .investment .section-investmentterms .d-flex {
-        display: block!important;
-    }
     .header .navbar ul.navbar-nav .dropdown-menu.dropdown-menu-lg {
         min-width: auto;
         max-height: 30rem;
@@ -132,8 +135,15 @@
         width: 91%;
         top: 1rem;
     }
-    .image-width {
+    .image-width,
+    main .section-aboutus .d-flex .half {
         width: auto;
+    }
+    .main .section-faq {
+        padding: 5rem;
+    }
+    main .section-aboutus .aboutus .half .whoweare-image {
+        height: 270px;
     }
 }
 
@@ -161,7 +171,8 @@
     main .section-wallet p.paragraph,
     main .section-loan p.paragraph,
     main .section-investment .section-payment p.paragraph,
-    main p.paragraph {
+    main p.paragraph,
+    main .section-review span {
         width: auto;
     }
     .section-testimonial h3.text-center,
@@ -211,6 +222,13 @@
     .footer .footer__bottom .form-inline .btn.btn-info.btn-subscribe {
         margin-left: 0; 
     } 
+}
+
+@media screen and (max-width: 350px) {
+    .footer__top .container-fluid img.margin-left-10 {
+        margin-top: 1rem;
+        margin-left: 0;
+    }
 }
 
 @media screen and (max-width: 600px) {

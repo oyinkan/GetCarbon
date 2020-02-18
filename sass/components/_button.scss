@@ -53,3 +53,10 @@
     border-color: #3b2f85;
     height: 52px;
 }
+
+.btn.btn-info.btn-whoweare {
+    @include buttonStyle(6px, $color-white, 1.6rem, 500, 1.5, -0.2px);
+    color: $color-primary;
+    padding: 1rem 3rem;
+    border-color: $color-white;
+}

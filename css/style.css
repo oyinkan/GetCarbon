@@ -195,6 +195,16 @@ a:hover {
     position: relative;
     top: 2px; }
 
+.smaller-text {
+  font-stretch: normal;
+  font-style: normal;
+  font-size: 1.44rem;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+  line-height: 1.25;
+  color: #071a2d;
+  text-transform: uppercase; }
+
 .pull-right {
   float: right; }
 
@@ -242,6 +252,12 @@ a:hover {
 
 .margin-top-20 {
   margin-top: 20px; }
+
+.mt-30 {
+  margin: 3rem 0; }
+
+.margin-right-10 {
+  margin-right: 1rem; }
 
 .btn.btn-info:hover {
   transform: translateY(-3px);
@@ -302,6 +318,21 @@ a:hover {
   padding-top: 7px;
   border-color: #3b2f85;
   height: 52px; }
+
+.btn.btn-info.btn-whoweare {
+  font-stretch: normal;
+  font-style: normal;
+  text-align: center;
+  color: #fff;
+  border-radius: 6px;
+  background-color: #fff;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: -0.2px;
+  color: #071a2d;
+  padding: 1rem 3rem;
+  border-color: #fff; }
 
 .testimonial-box {
   border-radius: 5px;
@@ -579,6 +610,155 @@ a:hover {
     height: auto;
     padding-bottom: 6px; }
 
+.header {
+  background: url(./../images/about/about-header.png); }
+  .header .about-text {
+    color: #fff;
+    width: 45%;
+    margin: auto; }
+
+main .section-aboutus {
+  margin-top: -18rem;
+  padding: 0 !important; }
+  main .section-aboutus .aboutus {
+    border-radius: 4px;
+    background-color: #ffeddf;
+    max-width: 1069px;
+    margin: auto; }
+    main .section-aboutus .aboutus .half {
+      width: 50%; }
+      main .section-aboutus .aboutus .half .aboutus-wrapper {
+        padding: 3rem; }
+        main .section-aboutus .aboutus .half .aboutus-wrapper h3 {
+          font-stretch: normal;
+          font-style: normal;
+          font-size: 3.2rem;
+          font-weight: 500;
+          letter-spacing: -0.2px;
+          line-height: normal;
+          color: #071a2d; }
+        main .section-aboutus .aboutus .half .aboutus-wrapper p {
+          font-stretch: normal;
+          font-style: normal;
+          font-size: 2rem;
+          font-weight: normal;
+          letter-spacing: -0.2px;
+          line-height: 1.9;
+          color: #071a2d; }
+      main .section-aboutus .aboutus .half .whoweare-image {
+        background: url(./../images/about/whoweare.png);
+        background-size: cover;
+        max-width: 100%;
+        height: 100%; }
+main .section-team .team-wrapper {
+  width: 70%;
+  margin: auto;
+  padding: 0 4rem;
+  color: #111111; }
+  main .section-team .team-wrapper h2 {
+    margin-top: 1.5rem; }
+  main .section-team .team-wrapper p {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #111111;
+    margin-top: 1.4rem;
+    margin-bottom: 0; }
+  main .section-team .team-wrapper span {
+    opacity: 0.5;
+    font-size: 16px; }
+main .section-services {
+  background: url(./../images/about/consumer.svg);
+  background-size: cover; }
+  main .section-services .consumer-wrapper {
+    max-width: 1096px;
+    margin: auto; }
+    main .section-services .consumer-wrapper h2 {
+      text-align: left;
+      width: 50%;
+      margin-bottom: 3rem; }
+    main .section-services .consumer-wrapper .findout {
+      width: 140px;
+      height: 140px;
+      border: solid 0.5px #9a8be5;
+      background-color: #5e50aa;
+      border-radius: 50%;
+      font-size: 16px;
+      font-weight: 500;
+      text-align: center;
+      color: #fff;
+      padding-top: 5.5rem; }
+      main .section-services .consumer-wrapper .findout::after {
+        content: "";
+        width: 2px;
+        height: 3rem;
+        color: #697381; }
+main .section-review h3 {
+  text-align: left; }
+main .section-review span {
+  font-size: 14px;
+  line-height: 1.57;
+  color: #071a2d;
+  display: inline-block;
+  width: 60%;
+  margin-bottom: 1.5rem; }
+main .section-presskit {
+  background-color: #f0f3f6; }
+  main .section-presskit h3 {
+    text-align: left; }
+  main .section-presskit .contact-wrapper {
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 4rem 2.5rem; }
+    main .section-presskit .contact-wrapper p {
+      font-size: 18px;
+      color: #120c0c; }
+      main .section-presskit .contact-wrapper p a {
+        line-height: 0.83;
+        color: #120c0c; }
+
+.faq-header {
+  padding-bottom: 24rem; }
+
+.main .section-faq {
+  border-radius: 20px;
+  background-image: linear-gradient(358deg, #fcfcff 96%, #ffffff 39%);
+  padding: 5rem 10rem 8rem 10rem;
+  margin-top: -8rem; }
+  .main .section-faq h2 {
+    font-weight: 500;
+    line-height: 1.25;
+    color: #14171d; }
+  .main .section-faq .accordion {
+    margin-top: 5rem; }
+    .main .section-faq .accordion .card {
+      border-radius: 6px;
+      box-shadow: 0 12px 36px 0 rgba(0, 0, 0, 0.05);
+      border: 0;
+      margin-bottom: 2rem; }
+      .main .section-faq .accordion .card .card-head {
+        padding: 2rem 2.5rem;
+        background-color: transparent;
+        border-bottom: none; }
+        .main .section-faq .accordion .card .card-head h4 {
+          font-weight: 500;
+          line-height: 1.5;
+          text-align: left;
+          background: url(./../images/faq/arrow-up.svg) no-repeat calc(100% - 10px) center;
+          background-size: 20px;
+          cursor: pointer; }
+        .main .section-faq .accordion .card .card-head h4[aria-expanded="true"] {
+          background-image: url(./../images/faq/arrow-down.svg); }
+      .main .section-faq .accordion .card .card-body {
+        padding: 0 2.5rem 2.5rem 2.5rem; }
+        .main .section-faq .accordion .card .card-body p {
+          font-stretch: normal;
+          font-style: normal;
+          font-size: 1.92rem;
+          font-weight: normal;
+          letter-spacing: normal;
+          line-height: 1.5;
+          color: #606267; }
+
 .image-width {
   width: 460px; }
 
@@ -773,6 +953,8 @@ a:hover {
   background-repeat: no-repeat;
   height: 100%;
   background-position: center; }
+.investment .section-steps .image-width.howitworks-image {
+  width: 380px; }
 .investment .section-steps__wrapper {
   padding: 0 3rem; }
   .investment .section-steps__wrapper .relative {
@@ -785,11 +967,11 @@ a:hover {
       color: #fff; }
     .investment .section-steps__wrapper .relative .line {
       width: 2px;
-      height: 70px;
+      height: 50px;
       border: solid 1px #3f2e8c;
       margin-left: 1.7rem;
-      margin-top: 1.7rem;
-      margin-bottom: 1rem; }
+      margin-top: 1.5rem;
+      margin-bottom: 0.5rem; }
   .investment .section-steps__wrapper h6 {
     font-stretch: normal;
     font-style: normal;

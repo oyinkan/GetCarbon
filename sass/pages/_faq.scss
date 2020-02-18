@@ -1,0 +1,54 @@
+.faq-header {
+    padding-bottom: 24rem;
+}
+.main {
+	.section-faq {
+	    border-radius: 20px;
+	    background-image: linear-gradient(358deg, #fcfcff 96%, #ffffff 39%);
+	    padding: 5rem 10rem 8rem 10rem;
+    	margin-top: -8rem;
+
+	    h2 {
+	    	font-weight: 500;
+			line-height: 1.25;
+			color: #14171d;
+	    }
+	    .accordion {
+			margin-top: 5rem;
+
+			.card {
+			    border-radius: 6px;
+				box-shadow: 0 12px 36px 0 rgba(0, 0, 0, 0.05);
+				border: 0;
+				margin-bottom: 2rem;
+			    
+			    .card-head {
+			    	padding: 2rem 2.5rem;
+				    background-color: transparent;
+				    border-bottom: none;
+
+				    h4 {
+				    	font-weight: 500;	
+						line-height: 1.5;
+						text-align: left;
+				      	background: url(./../images/faq/arrow-up.svg) no-repeat calc(100% - 10px) center;
+				    	background-size: 20px;
+				      	cursor: pointer;
+				    }
+
+				    h4[aria-expanded="true"] {
+					   background-image: url(./../images/faq/arrow-down.svg);
+					}
+			    }
+
+			    .card-body {
+					padding: 0 2.5rem 2.5rem 2.5rem;
+
+					p {
+						@include textstyle(1.92rem, normal, normal, 1.5, #606267);
+					}
+				}
+			 }
+		}
+	}
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="GetCarbon-Main-Website-V2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="New-GetCarbon-About-us" transform="translate(-806.000000, -5131.000000)">
+            <g id="Group-13" transform="translate(-4.000000, 4815.000000)">
+                <g id="Group-12" transform="translate(810.000000, 181.000000)">
+                    <g id="Group-11">
+                        <g id="icon" transform="translate(0.000000, 135.000000)">
+                            <circle id="Oval" fill="#F1F2F3" fill-rule="nonzero" cx="13.6" cy="13.6" r="13.6"></circle>
+                            <path d="M13.6,7.2 C17.1346224,7.2 20,10.0653776 20,13.6 C20,17.1346224 17.1346224,20 13.6,20 C10.0653776,20 7.2,17.1346224 7.2,13.6 C7.2,10.0653776 10.0653776,7.2 13.6,7.2 Z" id="Path" stroke="#8E66D9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M12,11.6832 C12.3106796,10.8000284 13.2130455,10.2697 14.1357928,10.4279757 C15.0585402,10.5862514 15.7325948,11.3869779 15.7312022,12.3232 C15.7312022,13.6032 13.8112,14.2432 13.8112,14.2432" id="Path" stroke="#8E66D9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M14.08,16.64 C14.08,16.9934622 13.7934622,17.28 13.44,17.28 C13.0865378,17.28 12.8,16.9934622 12.8,16.64 C12.8,16.2865378 13.0865378,16 13.44,16 C13.7934622,16 14.08,16.2865378 14.08,16.64" id="Path" fill="#8E66D9" fill-rule="nonzero"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
