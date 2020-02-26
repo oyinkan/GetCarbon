@@ -34,6 +34,7 @@
 				      	background: url(./../images/faq/arrow-up.svg) no-repeat calc(100% - 10px) center;
 				    	background-size: 20px;
 				      	cursor: pointer;
+				      	padding-right: 1rem;
 				    }
 
 				    h4[aria-expanded="true"] {
@@ -44,7 +45,7 @@
 			    .card-body {
 					padding: 0 2.5rem 2.5rem 2.5rem;
 
-					p {
+					p, li {
 						@include textstyle(1.92rem, normal, normal, 1.5, #606267);
 					}
 				}

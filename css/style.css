@@ -619,6 +619,8 @@ a:hover {
 
 .header {
   background: url(./../images/about/about-header.png); }
+  .header h1 {
+    font-size: 6rem; }
   .header .about-text {
     color: #fff;
     width: 45%;
@@ -681,8 +683,8 @@ main .section-services {
     width: 50%;
     margin-bottom: 3rem; }
   main .section-services .findout {
-    width: 140px;
-    height: 140px;
+    width: 130px;
+    height: 130px;
     border: solid 0.5px #9a8be5;
     background-color: #5e50aa;
     border-radius: 50%;
@@ -690,12 +692,8 @@ main .section-services {
     font-weight: 500;
     text-align: center;
     color: #fff;
-    padding-top: 5.5rem; }
-    main .section-services .findout::after {
-      content: "";
-      width: 2px;
-      height: 3rem;
-      color: #697381; }
+    padding-top: 5.5rem;
+    position: relative; }
 main .section-review {
   background: url(./../images/about/yearinreview-background.svg);
   background-size: cover; }
@@ -732,45 +730,66 @@ main .section-journey {
   background-position: right;
   background-repeat: no-repeat;
   margin-left: 7rem; }
-  main .section-journey .timeline {
-    position: relative; }
-    main .section-journey .timeline::after {
-      content: '';
+  main .section-journey .c-timeline {
+    position: relative;
+    padding-left: 6rem;
+    padding-top: 10rem;
+    margin-top: -7.9rem; }
+    main .section-journey .c-timeline::after {
+      content: "";
+      display: block;
+      width: 0;
+      height: 100%;
+      border: 1px solid #eaf6fc;
       position: absolute;
-      width: 1px;
-      background-color: #697381;
       top: 0;
-      bottom: 60px;
+      left: 60px;
+      left: 0; }
+    main .section-journey .c-timeline__bar {
+      display: none;
+      width: 0;
+      height: 0;
+      border: 1px solid #5e50aa;
+      position: absolute;
+      top: 0;
       left: 0;
-      margin-left: 0.5px; }
-    main .section-journey .timeline .wrapper {
-      padding: 10px 40px;
+      z-index: 1;
+      transition: ease-in-out all 0.5s; }
+    main .section-journey .c-timeline__frame {
+      max-width: 560px; }
+    main .section-journey .c-timeline__item {
       position: relative;
-      background-color: inherit;
-      width: 50%; }
-      main .section-journey .timeline .wrapper::after {
-        content: '';
-        position: absolute;
-        background: url(./../images/about/steps.svg);
-        width: 100%;
-        height: 50px;
+      margin-bottom: 45px;
+      padding-bottom: 15px;
+      z-index: 1;
+      list-style-type: none; }
+      main .section-journey .c-timeline__item::before {
+        content: "";
+        display: block;
+        width: 45px;
+        height: 45px;
+        top: 2px;
+        background-image: url(./../images/about/steps.svg), linear-gradient(white, white);
         background-repeat: no-repeat;
-        right: -17px;
-        top: 15px;
-        z-index: 1; }
-      main .section-journey .timeline .wrapper .content {
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.02);
+        border: 4px solid #fff;
+        position: absolute;
+        left: -82px; }
+      main .section-journey .c-timeline__item:last-child {
+        margin-bottom: 0; }
+      main .section-journey .c-timeline__item .content {
         padding-top: 8px;
-        padding-bottom: 50px; }
-        main .section-journey .timeline .wrapper .content h4 {
+        padding-bottom: 7rem; }
+        main .section-journey .c-timeline__item .content:last-child {
+          padding-bottom: 0; }
+        main .section-journey .c-timeline__item .content h4 {
           font-size: 24px;
           line-height: 1.33;
           color: #404855; }
-        main .section-journey .timeline .wrapper .content p {
+        main .section-journey .c-timeline__item .content p {
           font-size: 18px;
           line-height: 1.44;
           color: #697381; }
-    main .section-journey .timeline .wrapper.right::after {
-      left: -18px; }
 main .consumer-wrapper {
   max-width: 80%;
   margin: auto; }
@@ -804,12 +823,13 @@ main .consumer-wrapper {
           text-align: left;
           background: url(./../images/faq/arrow-up.svg) no-repeat calc(100% - 10px) center;
           background-size: 20px;
-          cursor: pointer; }
+          cursor: pointer;
+          padding-right: 1rem; }
         .main .section-faq .accordion .card .card-head h4[aria-expanded="true"] {
           background-image: url(./../images/faq/arrow-down.svg); }
       .main .section-faq .accordion .card .card-body {
         padding: 0 2.5rem 2.5rem 2.5rem; }
-        .main .section-faq .accordion .card .card-body p {
+        .main .section-faq .accordion .card .card-body p, .main .section-faq .accordion .card .card-body li {
           font-stretch: normal;
           font-style: normal;
           font-size: 1.92rem;

@@ -120,7 +120,7 @@
 
 		<div class="header__box">
 			<div class="text-center">
-				<h1 class="heading-tertiary-white">Providing financial <br>access to the next billion</h1>
+				<h1 class="heading-primary-white">Providing financial <br>access to the next billion</h1>
 				<p class="heading-four about-text">We believe access to quality financial services is a human right. Our mission is to empower all people with the access they need to pursue a life of dignity and prosperity.
 				</p>
 			</div>
@@ -231,26 +231,35 @@
 
 		<section class="section-journey">
 			<div class="consumer-wrapper">
-		        <div class="timeline">
-				    <div class="wrapper right">
-					    <div class="content">
-					        <h4><strong>2012:</strong> The journey to democratize credit in Nigeria began...</h4>
-			        		<p>One Credit was founded in Lagos, Nigeria. The company provided loans to salary earners only, using a paper based application process that required supporting documentation.</p>
-					    </div>
-				    </div>
-				    <div class="wrapper right">
-					    <div class="content">
-					        <h4><strong>2015:</strong> More credit for more people...</h4>
-			        		<p>With the introduction of the unique Bank Verification Number (BVN) and national credit bureau services, it becomes possible for us to provide more loans to more people, not just salary earners. The company broadened its service offering, leveraging a network of agents on the ground to get lending services in the hands of thousands of Nigerians under the OneFi brand.</p>
-					    </div>
-				    </div>
-				    <div class="wrapper right">
-					    <div class="content">
-					        <h4><strong>2016:</strong> Going digital…</h4>
-			        		<p>Thousands is good, but millions is better! We realized that by leveraging technology, we could provide access to credit to more consumers, and make the application process easier. The Paylater mobile app was launched in May 2016. It was the first service of its kind. A fully digital consumer lending experience, available 24/7, that gets borrowed funds into a person’s account in minutes. After just 2 years in the market, the Paylater mobile app was downloaded by over 1 million users.</p>
-					    </div>
-				    </div>
-				</div>
+				<div class="c-timeline__frame">
+		            <ul class="c-timeline">
+		                <span class="c-timeline__bar"></span>
+		                <li class="c-timeline__item">
+		                	<div class="content">
+			                    <h4><strong>2012:</strong> The journey to democratize credit in Nigeria began...</h4>
+				        		<p>One Credit was founded in Lagos, Nigeria. The company provided loans to salary earners only, using a paper based application process that required supporting documentation.</p>
+				        	</div>
+		                </li>
+		                <li class="c-timeline__item">
+		                	<div class="content">
+						        <h4><strong>2015:</strong> More credit for more people...</h4>
+				        		<p>With the introduction of the unique Bank Verification Number (BVN) and national credit bureau services, it becomes possible for us to provide more loans to more people, not just salary earners. The company broadened its service offering, leveraging a network of agents on the ground to get lending services in the hands of thousands of Nigerians under the OneFi brand.</p>
+						    </div>
+		                </li>
+		                <li class="c-timeline__item">
+		                	<div class="content">
+						        <h4><strong>2016:</strong> Going digital…</h4>
+				        		<p>Thousands is good, but millions is better! We realized that by leveraging technology, we could provide access to credit to more consumers, and make the application process easier. The Paylater mobile app was launched in May 2016. It was the first service of its kind. A fully digital consumer lending experience, available 24/7, that gets borrowed funds into a person’s account in minutes. After just 2 years in the market, the Paylater mobile app was downloaded by over 1 million users.</p>
+						    </div>
+		                </li>
+		                <li class="c-timeline__item">
+		                	<div class="content">
+		                		<h4><strong>2019:</strong>  Enter Carbon..</h4>
+		                		<p>As the suite of financial services offered in the app expanded from just loans and into payments, investments and personal finance management, the name 'Paylater' became a little limiting. Carbon represents our aspiration to go everywhere with our customers, form an essential part of their existence and be versatile enough to change or innovate to fulfill their needs. The renamed service signals our intent to offer the most diverse digital finance platform, anywhere.</p>
+		                	</div>
+		                </li>
+		            </ul>
+		        </div>
 			</div>
 		</section>
 
@@ -436,5 +445,8 @@
 	<script src="vendor/bootstrap/popper.min.js"></script>
 	<script src="vendor/jquery/jquery.min.js"></script>
 	<script src="vendor/bootstrap/bootstrap.min.js"></script>
+	<script>
+        "use strict";!function(){var e=document.querySelector(".c-timeline__frame");window.addEventListener("scroll",function(){var t=e.getBoundingClientRect().top-430,i=e.querySelector(".c-timeline .c-timeline__bar");i.style.display="none";var n=function(e){return e/(1+Math.abs(e))};if(t<0){var l=-1*t/e.scrollHeight,r=1.8*n(l)*100;i.style.display="block",i.style.height=(r>100?100:r)+"%"}})}();
+    </script>
 </body>
 </html>

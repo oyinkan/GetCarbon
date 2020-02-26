@@ -28,7 +28,10 @@
     }
 
     .heading-four,
-    .heading-four-white {
+    .heading-four-white,
+    .paragraph-variation,
+    .investment .section-steps .half-size h6, .investment .section-steps__wrapper h6,
+    main .section-journey .c-timeline__item .content h4 {
         font-size: 2rem;
     }
 
@@ -38,10 +41,6 @@
         font-size: 1.6rem;
     }
 
-    .paragraph-variation {
-        font-size: 2rem; 
-    }
-
     .nav-tabs .nav-link {
         font-size: 1.3rem;
         padding-left: 1.5rem; 
@@ -49,7 +48,8 @@
     .tab-content h4 {
         font-size: 2.5rem; 
     }
-    .tab-content p {
+    .tab-content p,
+    main .section-journey .c-timeline__item .content p {
         font-size: 1.5rem; 
     }
     .header .navbar {
@@ -82,10 +82,8 @@
         width: 100%;
         padding: 2rem; 
     }
-    .investment .section-steps .half-size h6, .investment .section-steps__wrapper h6 {
-        font-size: 2rem; 
-    }
-    .section-terms .container-fluid {
+    .section-terms .container-fluid,
+    main .consumer-wrapper {
         width: 95%; 
     }
     .investment .section-steps__image {
@@ -152,10 +150,13 @@
         height: 270px;
     }
     main .section-journey {
-        margin-left: 10rem;
+        margin-left: 9.5rem;
     }
     main .section-services .consumer-wrapper .findout {
         margin: 0 2rem;
+    }
+    main .section-journey .c-timeline__frame {
+        margin-left: -7px;
     }
 }
 
