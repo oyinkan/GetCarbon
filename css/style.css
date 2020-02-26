@@ -909,7 +909,9 @@ main .consumer-wrapper {
   .main .section-clients h3 {
     font-weight: 500; }
   .main .section-clients img {
-    margin-top: 3.5rem; }
+    margin-top: 3.5rem;
+    height: 30px;
+    margin-left: 4rem; }
   .main .section-clients hr {
     background-color: #dfe4ea;
     margin-top: 5rem; }
