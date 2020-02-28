@@ -405,7 +405,7 @@ a:hover {
   letter-spacing: -0.23px;
   margin-bottom: 0;
   margin-top: 20px; }
-.tab-content p {
+.tab-content p, .tab-content li {
   font-stretch: normal;
   font-style: normal;
   font-size: 1.8rem;

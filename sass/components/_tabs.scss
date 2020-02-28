@@ -33,7 +33,7 @@
         margin-top: 20px;
     }
 
-    p {
+    p,li {
         @include textstyle($paragraph-size, normal, normal, 1.44,$color-primary);
     }
 }
